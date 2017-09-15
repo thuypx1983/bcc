@@ -15,6 +15,12 @@
 /* breakpoint with one condition(min or max) */
 /* breakpoint with two conditions (min and max) */
 /*global*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/global\/_general\.scss}line{font-family:\000031}}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/global\/_header\.scss}line{font-family:\000031}}
 #header-top {
   background-color: #E1F4FC;
@@ -109,6 +115,27 @@
   background-color: transparent;
   border-left: 1px solid #fff;
   padding: 5px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/components\/_main-banner\.scss}line{font-family:\000032}}
+#home-banner {
+  margin-top: -30px;
+  width: 100%;
+  display: block;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/components\/_main-banner\.scss}line{font-family:\000036}}
+.banner-home .row-content {
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/components\/_main-banner\.scss}line{font-family:\000038}}
+.banner-home .row-content .views-field-title {
+  position: absolute;
+  right: 0px;
+  bottom: 10%;
+  padding: 10px 100px 10px 20px;
+  background-color: #fff;
+  font-size: 30px;
 }
 
 /*page*/

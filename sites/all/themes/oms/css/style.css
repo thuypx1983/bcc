@@ -36,6 +36,11 @@ header {
   padding-bottom: 20px;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/global\/_header\.scss}line{font-family:\0000313}}
+#header {
+  background-color: rgba(122, 122, 122, 0.15);
+}
+
 /*components*/
 @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/components\/_main-menu\.scss}line{font-family:\000032}}
 #navigation ul {

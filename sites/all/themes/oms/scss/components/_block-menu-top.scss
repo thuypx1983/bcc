@@ -1,0 +1,35 @@
+.menu-top{
+  ul{
+    padding: 0px;display: table;
+    margin: 0px;
+    li{
+      list-style: none;
+      display: block;
+      float: left;
+
+      a{
+        display: inline-block;
+        color: $text_gray;
+        position: relative;
+        padding-right: 12px;
+        &:after{
+          content: "";
+          position: absolute;
+          right: 0px;
+          height: 12px;
+          top: 5px;
+          width: 1px;
+          background-color: $text_gray;
+
+        }
+      }
+      &:last-child{
+        a{
+          &:after{
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+
+@import "fonts";
+/* Variables */
+@import "vars";
+
+/* Mixin */
+@import "mixin";
+
+/*global*/
+@import "global/general";
+@import "global/header";
+@import "global/body";
+@import "global/footer";
+
+/*components*/
+@import "components/main-menu";
+@import "components/block-menu-top";
+@import "components/block-search";
+
+/*page*/
+@import "pages/_page-home";

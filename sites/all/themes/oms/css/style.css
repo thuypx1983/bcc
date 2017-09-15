@@ -22,6 +22,14 @@ img {
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/global\/_header\.scss}line{font-family:\000031}}
+header {
+  z-index: 100;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/global\/_header\.scss}line{font-family:\000037}}
 #header-top {
   background-color: #E1F4FC;
   padding-top: 20px;
@@ -119,9 +127,7 @@ img {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/components\/_main-banner\.scss}line{font-family:\000032}}
 #home-banner {
-  margin-top: -30px;
-  width: 100%;
-  display: block;
+  padding-top: 50px;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/components\/_main-banner\.scss}line{font-family:\000036}}

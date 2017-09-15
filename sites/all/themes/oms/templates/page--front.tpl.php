@@ -104,7 +104,7 @@
   <?php print render($page['header']); ?>
 
   <?php print $messages; ?>
-
+    <div class="clearfix"></div>
   <?php if ($page['home_banner']): ?>
       <div id="home-banner"> <?php print render($page['home_banner']); ?></div>
   <?php endif; ?>

@@ -1,5 +1,12 @@
+header{
+  z-index: 100;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+}
 #header-top{
   background-color: $bg_1;
   padding-top: 20px;
   padding-bottom: 20px;
+
 }

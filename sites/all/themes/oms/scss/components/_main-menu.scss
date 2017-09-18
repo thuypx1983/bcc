@@ -1,11 +1,47 @@
 #navigation{
-  ul{
-    padding: 0px;
-    margin: 0px;
+  ul.menu{
+    display: block;
     li{
       list-style: none;
       display: block;
       float: left;
+      padding: 0px 0px 0px 30px;
+      margin: 0px;
+      a{
+        font-size: 18px;
+        padding:25px 0px;
+        display: block;
+        position: relative;
+
+        &.active{
+          background: transparent;
+          color: $text_red;
+          &:after{
+            position: absolute;
+            content: "";
+            bottom: 0px;
+            width: 100%;
+            background-color: $text_red;
+            height: 3px;
+            left:0px;
+          }
+        }
+        &:hover{
+          background: transparent;
+          color:$text_red;
+          text-decoration: none;
+          &:after{
+            position: absolute;
+            content: "";
+            bottom: 0px;
+            width: 100%;
+            background-color: $text_red;
+            height: 3px;
+            left:0px;
+          }
+        }
+
+      }
     }
   }
 }

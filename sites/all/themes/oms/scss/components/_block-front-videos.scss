@@ -1,0 +1,14 @@
+.videos-font{
+  .views-row{
+    display: block;
+    float: left;
+    width: 50%;
+    &:first-child{
+      padding-right: 15px;
+
+    }
+    &:last-child{
+      padding-left: 15px;
+    }
+  }
+}

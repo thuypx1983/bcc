@@ -58,6 +58,10 @@ function oms_process_page(&$variables) {
  * Override or insert variables into the page template.
  */
 function oms_preprocess_page(&$vars) {
+    if ($vars['is_front']) {
+        unset($vars['page']['content']['system_main']);
+    }
+
   if (isset($vars['main_menu'])) {
     $vars['main_menu'] = theme('links__system_main_menu', array(
       'links' => $vars['main_menu'],

@@ -10,8 +10,12 @@
       right: 0px;
       bottom: 10%;
       padding: 10px 100px 10px 20px;
-      background-color: $text-white;
+      background-color: $text_white;
+      color: $text_red;
+      text-transform: uppercase;
       font-size: 30px;
+      font-weight: bold;
+      font-style: italic;
     }
   }
 }

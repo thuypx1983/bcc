@@ -112,71 +112,43 @@
   <?php if ($page['home_high1'] || $page['home_high2'] || $page['home_high3']): ?>
       <div id="home-highlights" class="clearfix">
         <?php if ($page['home_high1']): ?>
-            <div class="home-highlight-box"><?php print render($page['home_high1']); ?></div>
+            <div class="container home-highlight-box"><?php print render($page['home_high1']); ?></div>
         <?php endif; ?>
         <?php if ($page['home_high2']): ?>
-            <div class="home-highlight-box"><?php print render($page['home_high2']); ?></div>
+            <div class="container home-highlight-box"><div class="row"><?php print render($page['home_high2']); ?></div></div>
         <?php endif; ?>
-        <?php if ($page['home_high3']): ?>
-            <div class="home-highlight-box remove-margin"><?php print render($page['home_high3']); ?></div>
-        <?php endif; ?>
-      </div>
-  <?php endif; ?>
-
-  <?php if (theme_get_setting('show_front_content') == 1): ?>
-      <div id="main" class="clearfix">
-          <section id="post-content" role="main">
-            <?php if ($page['content_top']): ?><div id="content_top"><?php print render($page['content_top']); ?></div><?php endif; ?>
-            <?php print render($title_prefix); ?>
-            <?php if ($title): ?><h1 class="page-title"><?php print $title; ?></h1><?php endif; ?>
-            <?php print render($title_suffix); ?>
-            <?php if (!empty($tabs['#primary'])): ?><div class="tabs-wrapper clearfix"><?php print render($tabs); ?></div><?php endif; ?>
-            <?php print render($page['help']); ?>
-            <?php if ($action_links): ?><ul class="action-links"><?php print render($action_links); ?></ul><?php endif; ?>
-            <?php print render($page['content']); ?>
-          </section> <!-- /#main -->
-
-        <?php if ($page['sidebar_first']): ?>
-            <aside id="sidebar" role="complementary" class="sidebar clearfix">
-              <?php print render($page['sidebar_first']); ?>
-            </aside>  <!-- /#sidebar-first -->
-        <?php endif; ?>
-      </div>
-      <div class="clear"></div>
-  <?php endif; ?>
-
-  <?php if ($page['footer_first'] || $page['footer_second'] || $page['footer_third'] || $page['footer_fourth']): ?>
-      <div id="footer-saran" class="clearfix">
-          <div id="footer-wrap">
-            <?php if ($page['footer_first']): ?>
-                <div class="footer-box"><?php print render($page['footer_first']); ?></div>
-            <?php endif; ?>
-            <?php if ($page['footer_second']): ?>
-                <div class="footer-box"><?php print render($page['footer_second']); ?></div>
-            <?php endif; ?>
-            <?php if ($page['footer_third']): ?>
-                <div class="footer-box"><?php print render($page['footer_third']); ?></div>
-            <?php endif; ?>
-            <?php if ($page['footer_fourth']): ?>
-                <div class="footer-box remove-margin"><?php print render($page['footer_fourth']); ?></div>
-            <?php endif; ?>
+          <div class="container home-highlight-box remove-margin">
+              <div class="title">
+                  <span>Góc kỹ thuật</span>
+              </div>
+              <div class="row">
+                  <div class="col-md-3">
+                      <?php print render($page['home_high3_column1']); ?>
+                  </div>
+                  <div class="col-md-3">
+                      <?php print render($page['home_high3_column2']); ?>
+                  </div>
+                  <div class="col-md-3">
+                      <?php print render($page['home_high3_column3']); ?>
+                  </div>
+                  <div class="col-md-3">
+                      <?php print render($page['home_high3_column4']); ?>
+                  </div>
+              </div>
           </div>
       </div>
-      <div class="clear"></div>
   <?php endif; ?>
-
-    <!--END footer -->
-  <?php print render($page['footer']) ?>
-
-  <?php if (theme_get_setting('footer_copyright') || theme_get_setting('footer_credits')): ?>
-      <div class="clear"></div>
-      <div id="copyright">
-        <?php if ($footer_copyright): ?>
-          <?php print $footer_copyright; ?>
-        <?php endif; ?>
-        <?php if (theme_get_setting('footer_credits')): ?>
-            <span class="credits"><?php print t('Designed by'); ?>  <a href="http://www.devsaran.com">Devsaran</a>.</span>
-        <?php endif; ?>
+  <footer>
+      <div id="footer" class="footer">
+          <div class="container">
+            <?php print render($page['footer']) ?>
+          </div>
       </div>
-  <?php endif; ?>
+
+      <div id="footer-bottom" class="footer-bottom">
+          <div class="container">
+              <?php print render($page['footer_bottom']) ?>
+          </div>
+      </div>
+  </footer>
 </div>

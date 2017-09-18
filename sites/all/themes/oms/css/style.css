@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* Variables */
 /* Break point */
 /* Mixin */
@@ -15,13 +16,33 @@
 /* breakpoint with one condition(min or max) */
 /* breakpoint with two conditions (min and max) */
 /*global*/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/global\/_general\.scss}line{font-family:\000031}}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/thuypx\/websites\/bcc\/sites\/all\/themes\/oms\/scss\/global\/_general\.scss}line{font-family:\000031}}
 img {
   max-width: 100%;
   height: auto;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/global\/_header\.scss}line{font-family:\000031}}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/thuypx\/websites\/bcc\/sites\/all\/themes\/oms\/scss\/global\/_general\.scss}line{font-family:\000036}}
+.block .title {
+  font-size: 26px;
+  text-transform: uppercase;
+  display: inline-block;
+  position: relative;
+  color: #3AA6C9;
+  margin-bottom: 15px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/thuypx\/websites\/bcc\/sites\/all\/themes\/oms\/scss\/global\/_general\.scss}line{font-family:\0000313}}
+.block .title:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  background-color: #3AA6C9;
+  bottom: 0px;
+  left: 0px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/thuypx\/websites\/bcc\/sites\/all\/themes\/oms\/scss\/global\/_header\.scss}line{font-family:\000031}}
 header {
   z-index: 100;
   position: fixed;
@@ -29,51 +50,133 @@ header {
   width: 100%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/global\/_header\.scss}line{font-family:\000037}}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/thuypx\/websites\/bcc\/sites\/all\/themes\/oms\/scss\/global\/_header\.scss}line{font-family:\000037}}
 #header-top {
   background-color: #E1F4FC;
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/global\/_header\.scss}line{font-family:\0000313}}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/thuypx\/websites\/bcc\/sites\/all\/themes\/oms\/scss\/global\/_header\.scss}line{font-family:\0000313}}
 #header {
   background-color: rgba(255, 255, 255, 0.15);
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/thuypx\/websites\/bcc\/sites\/all\/themes\/oms\/scss\/global\/_header\.scss}line{font-family:\0000316}}
+#header .pull-left {
+  position: absolute;
+  height: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/thuypx\/websites\/bcc\/sites\/all\/themes\/oms\/scss\/global\/_header\.scss}line{font-family:\0000319}}
+#header .pull-left #logo {
+  height: 100%;
+  display: block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/thuypx\/websites\/bcc\/sites\/all\/themes\/oms\/scss\/global\/_header\.scss}line{font-family:\0000322}}
+#header .pull-left #logo a {
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  /* optional. only if you want the items to wrap */
+  justify-content: center;
+  /* for horizontal alignment */
+  align-items: center;
+  /* for vertical alignment */
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/thuypx\/websites\/bcc\/sites\/all\/themes\/oms\/scss\/global\/_header\.scss}line{font-family:\0000328}}
+#header .pull-left #logo a img {
+  max-height: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/thuypx\/websites\/bcc\/sites\/all\/themes\/oms\/scss\/global\/_footer\.scss}line{font-family:\000031}}
+.footer-bottom {
+  background-color: #3AA6C9;
+  padding: 15px 0px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/thuypx\/websites\/bcc\/sites\/all\/themes\/oms\/scss\/global\/_footer\.scss}line{font-family:\000034}}
+.footer-bottom p {
+  color: #fff;
+  margin-bottom: 0px;
+  font-size: 16px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/thuypx\/websites\/bcc\/sites\/all\/themes\/oms\/scss\/global\/_footer\.scss}line{font-family:\0000310}}
+.footer {
+  background-color: #E1F4FC;
 }
 
 /*components*/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/components\/_main-menu\.scss}line{font-family:\000032}}
-#navigation ul {
-  padding: 0px;
-  margin: 0px;
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/thuypx\/websites\/bcc\/sites\/all\/themes\/oms\/scss\/components\/_main-menu\.scss}line{font-family:\000032}}
+#navigation ul.menu {
+  display: block;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/components\/_main-menu\.scss}line{font-family:\000035}}
-#navigation ul li {
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/thuypx\/websites\/bcc\/sites\/all\/themes\/oms\/scss\/components\/_main-menu\.scss}line{font-family:\000034}}
+#navigation ul.menu li {
   list-style: none;
   display: block;
   float: left;
+  padding: 0px 0px 0px 30px;
+  margin: 0px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/thuypx\/websites\/bcc\/sites\/all\/themes\/oms\/scss\/components\/_main-menu\.scss}line{font-family:\0000310}}
+#navigation ul.menu li a {
+  font-size: 18px;
+  padding: 25px 0px;
+  display: block;
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/thuypx\/websites\/bcc\/sites\/all\/themes\/oms\/scss\/components\/_main-menu\.scss}line{font-family:\0000316}}
+#navigation ul.menu li a.active {
+  background: transparent;
+  color: #ED443D;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/thuypx\/websites\/bcc\/sites\/all\/themes\/oms\/scss\/components\/_main-menu\.scss}line{font-family:\0000319}}
+#navigation ul.menu li a.active:after {
+  position: absolute;
+  content: "";
+  bottom: 0px;
+  width: 100%;
+  background-color: #ED443D;
+  height: 3px;
+  left: 0px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/thuypx\/websites\/bcc\/sites\/all\/themes\/oms\/scss\/components\/_main-menu\.scss}line{font-family:\0000329}}
+#navigation ul.menu li a:hover {
+  background: transparent;
+  color: #ED443D;
+  text-decoration: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/thuypx\/websites\/bcc\/sites\/all\/themes\/oms\/scss\/components\/_main-menu\.scss}line{font-family:\0000333}}
+#navigation ul.menu li a:hover:after {
+  position: absolute;
+  content: "";
+  bottom: 0px;
+  width: 100%;
+  background-color: #ED443D;
+  height: 3px;
+  left: 0px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/components\/_block-menu-top\.scss}line{font-family:\000032}}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/thuypx\/websites\/bcc\/sites\/all\/themes\/oms\/scss\/components\/_block-menu-top\.scss}line{font-family:\000032}}
 .menu-top ul {
   padding: 0px;
   display: table;
   margin: 0px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/components\/_block-menu-top\.scss}line{font-family:\000035}}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/thuypx\/websites\/bcc\/sites\/all\/themes\/oms\/scss\/components\/_block-menu-top\.scss}line{font-family:\000035}}
 .menu-top ul li {
   list-style: none;
   display: block;
   float: left;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/components\/_block-menu-top\.scss}line{font-family:\0000310}}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/thuypx\/websites\/bcc\/sites\/all\/themes\/oms\/scss\/components\/_block-menu-top\.scss}line{font-family:\0000310}}
 .menu-top ul li a {
   display: inline-block;
   color: #7a7a7a;
   position: relative;
   padding-right: 12px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/components\/_block-menu-top\.scss}line{font-family:\0000315}}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/thuypx\/websites\/bcc\/sites\/all\/themes\/oms\/scss\/components\/_block-menu-top\.scss}line{font-family:\0000315}}
 .menu-top ul li a:after {
   content: "";
   position: absolute;
@@ -83,30 +186,30 @@ header {
   width: 1px;
   background-color: #7a7a7a;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/components\/_block-menu-top\.scss}line{font-family:\0000328}}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/thuypx\/websites\/bcc\/sites\/all\/themes\/oms\/scss\/components\/_block-menu-top\.scss}line{font-family:\0000328}}
 .menu-top ul li:last-child a:after {
   display: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/components\/_block-search\.scss}line{font-family:\000032}}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/thuypx\/websites\/bcc\/sites\/all\/themes\/oms\/scss\/components\/_block-search\.scss}line{font-family:\000032}}
 .block-search .search-form {
   padding-bottom: 0px;
   margin-bottom: 0px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/components\/_block-search\.scss}line{font-family:\000036}}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/thuypx\/websites\/bcc\/sites\/all\/themes\/oms\/scss\/components\/_block-search\.scss}line{font-family:\000036}}
 .block-search .container-inline {
   position: relative;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/components\/_block-search\.scss}line{font-family:\000038}}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/thuypx\/websites\/bcc\/sites\/all\/themes\/oms\/scss\/components\/_block-search\.scss}line{font-family:\000038}}
 .block-search .container-inline .form-type-textfield {
   padding: 0px;
   margin: 0px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/components\/_block-search\.scss}line{font-family:\0000311}}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/thuypx\/websites\/bcc\/sites\/all\/themes\/oms\/scss\/components\/_block-search\.scss}line{font-family:\0000311}}
 .block-search .container-inline .form-type-textfield .element-invisible {
   display: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/components\/_block-search\.scss}line{font-family:\0000315}}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/thuypx\/websites\/bcc\/sites\/all\/themes\/oms\/scss\/components\/_block-search\.scss}line{font-family:\0000315}}
 .block-search .container-inline .form-text {
   line-height: 24px;
   border: none;
@@ -116,37 +219,140 @@ header {
   border-radius: 3px;
   padding-left: 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/components\/_block-search\.scss}line{font-family:\0000324}}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/thuypx\/websites\/bcc\/sites\/all\/themes\/oms\/scss\/components\/_block-search\.scss}line{font-family:\0000324}}
 .block-search .container-inline .form-actions {
   position: absolute;
   right: 0px;
   display: block;
   top: 0px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/components\/_block-search\.scss}line{font-family:\0000329}}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/thuypx\/websites\/bcc\/sites\/all\/themes\/oms\/scss\/components\/_block-search\.scss}line{font-family:\0000329}}
 .block-search .container-inline .form-actions input {
   background-color: transparent;
   border-left: 1px solid #fff;
   padding: 5px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/components\/_main-banner\.scss}line{font-family:\000032}}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/thuypx\/websites\/bcc\/sites\/all\/themes\/oms\/scss\/components\/_main-banner\.scss}line{font-family:\000032}}
 #home-banner {
   padding-top: 50px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/components\/_main-banner\.scss}line{font-family:\000036}}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/thuypx\/websites\/bcc\/sites\/all\/themes\/oms\/scss\/components\/_main-banner\.scss}line{font-family:\000036}}
 .banner-home .row-content {
   position: relative;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/components\/_main-banner\.scss}line{font-family:\000038}}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/thuypx\/websites\/bcc\/sites\/all\/themes\/oms\/scss\/components\/_main-banner\.scss}line{font-family:\000038}}
 .banner-home .row-content .views-field-title {
   position: absolute;
   right: 0px;
   bottom: 10%;
   padding: 10px 100px 10px 20px;
   background-color: #fff;
+  color: #ED443D;
+  text-transform: uppercase;
   font-size: 30px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/thuypx\/websites\/bcc\/sites\/all\/themes\/oms\/scss\/components\/_block-front-product-catgories\.scss}line{font-family:\000032}}
+.category-list .views-row {
+  margin-bottom: 30px;
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/thuypx\/websites\/bcc\/sites\/all\/themes\/oms\/scss\/components\/_block-front-product-catgories\.scss}line{font-family:\000035}}
+.category-list .views-row .views-field-name {
+  position: absolute;
+  top: 20px;
+  width: 100%;
+  font-size: 30px;
+  color: #fff;
+  padding-left: 15px;
+  padding-right: 50px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/thuypx\/websites\/bcc\/sites\/all\/themes\/oms\/scss\/components\/_block-front-product-catgories\.scss}line{font-family:\0000314}}
+.category-list .views-row .views-field-name-1 {
+  position: absolute;
+  bottom: 20px;
+  right: 30px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/thuypx\/websites\/bcc\/sites\/all\/themes\/oms\/scss\/components\/_block-front-product-catgories\.scss}line{font-family:\0000318}}
+.category-list .views-row .views-field-name-1 a {
+  background-color: #fff;
+  padding: 5px 25px 5px 5px;
+  font-size: 11px;
+  display: block;
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/thuypx\/websites\/bcc\/sites\/all\/themes\/oms\/scss\/components\/_block-front-product-catgories\.scss}line{font-family:\0000324}}
+.category-list .views-row .views-field-name-1 a::after {
+  display: block;
+  content: "»";
+  position: absolute;
+  right: 0px;
+  padding: 2px 6px;
+  background-color: #3AA6C9;
+  color: #fff;
+  top: 0px;
+  font-size: 15px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/thuypx\/websites\/bcc\/sites\/all\/themes\/oms\/scss\/components\/_block-front-news\.scss}line{font-family:\000033}}
+.news-font .views-row .views-field-body {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/thuypx\/websites\/bcc\/sites\/all\/themes\/oms\/scss\/components\/_block-front-news\.scss}line{font-family:\000037}}
+.news-font .views-row:first-child .views-field-body {
+  display: block;
+  color: #9a9a9a;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/thuypx\/websites\/bcc\/sites\/all\/themes\/oms\/scss\/components\/_block-front-news\.scss}line{font-family:\0000311}}
+.news-font .views-row:first-child a {
+  color: #000;
+  font-weight: bold;
+  padding-bottom: 10px;
+  display: block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/thuypx\/websites\/bcc\/sites\/all\/themes\/oms\/scss\/components\/_block-front-news\.scss}line{font-family:\0000318}}
+.news-font .views-row:nth-child(n+2) {
+  display: block;
+  background-color: #dddddd;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/thuypx\/websites\/bcc\/sites\/all\/themes\/oms\/scss\/components\/_block-front-news\.scss}line{font-family:\0000321}}
+.news-font .views-row:nth-child(n+2) a {
+  display: block;
+  padding: 10px 0px 10px 10px;
+  margin-right: 15px;
+  color: #2c2c2c;
+  margin-left: 15px;
+  border-bottom: 1px solid #2c2c2c;
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/thuypx\/websites\/bcc\/sites\/all\/themes\/oms\/scss\/components\/_block-front-news\.scss}line{font-family:\0000330}}
+.news-font .views-row:nth-child(n+2) a:after {
+  content: "•";
+  position: absolute;
+  left: 0px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/thuypx\/websites\/bcc\/sites\/all\/themes\/oms\/scss\/components\/_block-front-news\.scss}line{font-family:\0000339}}
+.news-font .views-row:last-child a {
+  border-bottom: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/thuypx\/websites\/bcc\/sites\/all\/themes\/oms\/scss\/components\/_block-front-videos\.scss}line{font-family:\000032}}
+.videos-font .views-row {
+  display: block;
+  float: left;
+  width: 50%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/thuypx\/websites\/bcc\/sites\/all\/themes\/oms\/scss\/components\/_block-front-videos\.scss}line{font-family:\000036}}
+.videos-font .views-row:first-child {
+  padding-right: 15px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/thuypx\/websites\/bcc\/sites\/all\/themes\/oms\/scss\/components\/_block-front-videos\.scss}line{font-family:\0000310}}
+.videos-font .views-row:last-child {
+  padding-left: 15px;
 }
 
 /*page*/

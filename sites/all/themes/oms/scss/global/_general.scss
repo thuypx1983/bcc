@@ -36,7 +36,8 @@ body.not-front{
 }
 .page-title{
   background-color: $bg_4;
-  h1.title{
+  margin-bottom: 25px;
+  h1.title,h2.title{
     color: $text_white;
     font-size: 30px;
     margin-bottom: 20px;

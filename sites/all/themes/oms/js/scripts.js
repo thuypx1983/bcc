@@ -3,7 +3,15 @@
 
         //
         initSlick:function(){
+
             $('.banner-home .view-banner .view-content').slick({
+                autoplay: true,
+                autoplaySpeed: 2000,
+            })
+            $('.related-products .view-content').slick({
+                infinite: true,
+                slidesToShow: 4,
+                slidesToScroll: 1,
                 autoplay: true,
                 autoplaySpeed: 2000,
             })

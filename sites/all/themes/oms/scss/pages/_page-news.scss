@@ -1,0 +1,12 @@
+.page-tin-tuc{
+  .view-news{
+    .views-row{
+      display: inline-table;
+      width: 100%;
+      .views-field-field-image{
+        float: left;
+        max-width: 200px;
+      }
+    }
+  }
+}

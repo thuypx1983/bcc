@@ -65,9 +65,10 @@ body.not-front a {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/global\/_general\.scss}line{font-family:\0000337}}
 .page-title {
   background-color: #164d81;
+  margin-bottom: 25px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/global\/_general\.scss}line{font-family:\0000339}}
-.page-title h1.title {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/global\/_general\.scss}line{font-family:\0000340}}
+.page-title h1.title, .page-title h2.title {
   color: #fff;
   font-size: 30px;
   margin-bottom: 20px;
@@ -136,29 +137,37 @@ header {
   background-color: #E1F4FC;
   padding-top: 15px;
   padding-bottom: 15px;
+  margin-top: 40px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/global\/_footer\.scss}line{font-family:\0000316}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/global\/_footer\.scss}line{font-family:\0000317}}
 .footer-address h6 {
   font-size: 16px;
   font-weight: bold;
   color: #164d81;
   text-transform: uppercase;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/global\/_footer\.scss}line{font-family:\0000322}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/global\/_footer\.scss}line{font-family:\0000323}}
 .footer-address p {
   color: #235a8e;
   margin-bottom: 0px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/global\/_footer\.scss}line{font-family:\0000323}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/global\/_footer\.scss}line{font-family:\0000324}}
 .footer-address p strong {
   color: #164d81;
   width: 70px;
   display: inline-block;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/global\/_footer\.scss}line{font-family:\0000328}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/global\/_footer\.scss}line{font-family:\0000329}}
 .footer-address p a {
   color: #235a8e;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/global\/_footer\.scss}line{font-family:\0000336}}
+.content-footer {
+  background-color: #f2f4f4;
+  margin-top: 50px;
+  padding-bottom: 25px;
 }
 
 /*components*/
@@ -576,18 +585,80 @@ header {
   margin-right: auto;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/components\/_block-related-products\.scss}line{font-family:\000032}}
+.related-products {
+  margin-top: 25px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/components\/_block-related-products\.scss}line{font-family:\000035}}
+.related-products.block .title {
+  font-size: 25px;
+  font-weight: normal;
+  text-align: center;
+  position: relative;
+  padding-bottom: 5px;
+  text-align: center;
+  display: block;
+  text-transform: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/components\/_block-related-products\.scss}line{font-family:\0000314}}
+.related-products.block .title:after {
+  position: absolute;
+  width: 50px;
+  height: 3px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  bottom: 0px;
+  background-color: #ffbc00;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/components\/_block-related-products\.scss}line{font-family:\0000325}}
+.related-products .slick-next::before, .related-products .slick-prev::before {
+  color: #164d81;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/components\/_block-menu-product-category\.scss}line{font-family:\000032}}
+.menu-product-category .title {
+  font-size: 16px;
+  text-transform: none;
+  margin-bottom: 5px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/components\/_block-menu-product-category\.scss}line{font-family:\000035}}
+.menu-product-category .title:after {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/components\/_block-menu-product-category\.scss}line{font-family:\0000310}}
+.menu-product-category ul.menu {
+  padding: 0px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/components\/_block-menu-product-category\.scss}line{font-family:\0000313}}
+.menu-product-category ul.menu li {
+  list-style: none;
+  padding-left: 0px;
+  margin: 0px;
+  padding: 10px 0px;
+  border-bottom: 1px solid #f2f4f4;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/components\/_block-menu-product-category\.scss}line{font-family:\0000319}}
+.menu-product-category ul.menu li a {
+  font-size: 19px;
+  color: #9a9a9a;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/components\/_block-menu-product-category\.scss}line{font-family:\0000322}}
+.menu-product-category ul.menu li a.active {
+  color: #164d81;
+}
+
 /*page*/
 @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/pages\/_page-product-list\.scss}line{font-family:\000032}}
-#block-views-product-list-block-1 .title {
+.best-sell-product .title {
   font-size: 16px;
   text-transform: none;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/pages\/_page-product-list\.scss}line{font-family:\000035}}
-#block-views-product-list-block-1 .title:after {
+.best-sell-product .title:after {
   display: none;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/pages\/_page-product-list\.scss}line{font-family:\0000310}}
-#block-views-product-list-block-1 .content .views-row {
+.best-sell-product .content .views-row {
   display: inline-table;
   width: 100%;
   border-bottom: 2px solid #f2f4f4;
@@ -595,26 +666,26 @@ header {
   padding-top: 15px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/pages\/_page-product-list\.scss}line{font-family:\0000316}}
-#block-views-product-list-block-1 .content .views-row:last-child {
+.best-sell-product .content .views-row:last-child {
   border-bottom: none;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/pages\/_page-product-list\.scss}line{font-family:\0000319}}
-#block-views-product-list-block-1 .content .views-row .views-field-field-image {
+.best-sell-product .content .views-row .views-field-field-image {
   float: right;
   width: 65px;
   border: 1px solid #f2f4f4;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/pages\/_page-product-list\.scss}line{font-family:\0000324}}
-#block-views-product-list-block-1 .content .views-row .views-field-title {
+.best-sell-product .content .views-row .views-field-title {
   display: block;
   padding-bottom: 10px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/pages\/_page-product-list\.scss}line{font-family:\0000328}}
-#block-views-product-list-block-1 .content .views-row .views-field-field-rate, #block-views-product-list-block-1 .content .views-row .field-name-field-rate {
+.best-sell-product .content .views-row .views-field-field-rate, .best-sell-product .content .views-row .field-name-field-rate {
   width: 100%;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/pages\/_page-product-list\.scss}line{font-family:\0000330}}
-#block-views-product-list-block-1 .content .views-row .views-field-field-rate .star, #block-views-product-list-block-1 .content .views-row .field-name-field-rate .star {
+.best-sell-product .content .views-row .views-field-field-rate .star, .best-sell-product .content .views-row .field-name-field-rate .star {
   float: left;
   width: 8px;
   height: 9px;
@@ -622,7 +693,7 @@ header {
   padding: 0 6px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/pages\/_page-product-list\.scss}line{font-family:\0000337}}
-#block-views-product-list-block-1 .content .views-row .views-field-field-rate .star-active, #block-views-product-list-block-1 .content .views-row .field-name-field-rate .star-active {
+.best-sell-product .content .views-row .views-field-field-rate .star-active, .best-sell-product .content .views-row .field-name-field-rate .star-active {
   background: url("../images/star.png") no-repeat;
 }
 
@@ -646,6 +717,28 @@ header {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/pages\/_page-product-list\.scss}line{font-family:\0000355}}
 .view-display-id-page .views-row .views-field-field-image {
   border: 3px solid #3AA6C9;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/pages\/_page-news\.scss}line{font-family:\000033}}
+.page-tin-tuc .view-news .views-row {
+  display: inline-table;
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/pages\/_page-news\.scss}line{font-family:\000036}}
+.page-tin-tuc .view-news .views-row .views-field-field-image {
+  float: left;
+  max-width: 200px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/pages\/_page-product-detail\.scss}line{font-family:\000032}}
+.node-type-product h1.product-title {
+  font-size: 25px;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/pages\/_page-product-detail\.scss}line{font-family:\000037}}
+.node-type-product .form-type-item {
+  margin: 0px;
 }
 
 /*# sourceMappingURL=style.css.map */

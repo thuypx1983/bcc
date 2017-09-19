@@ -123,18 +123,20 @@
 
 
             </div>
-            <?php if ($page['sidebar_first']): ?>
-                <div class="col-md-3">
-                    <aside id="sidebar" role="complementary" class="sidebar clearfix">
-                      <?php print render($page['sidebar_first']); ?>
-                    </aside>
+            <div class="row">
+              <?php if ($page['sidebar_first']): ?>
+                  <div class="col-md-3">
+                      <aside id="sidebar" role="complementary" class="sidebar clearfix">
+                        <?php print render($page['sidebar_first']); ?>
+                      </aside>
+                  </div>
+              <?php endif; ?>
+                <div class="<?php echo $page['sidebar_first']?'col-md-9':'col-md-12'?>">
+                    <section id="post-content" role="main">
+                      <?php print render($page['content']); ?>
+                    </section>
                 </div>
-            <?php endif; ?>
-              <div class="<?php echo $page['sidebar_first']?'col-md-9':'col-md-12'?>">
-                  <section id="post-content" role="main">
-                     <?php print render($page['content']); ?>
-                  </section>
-              </div>
+            </div>
           </div>
 
     </div>

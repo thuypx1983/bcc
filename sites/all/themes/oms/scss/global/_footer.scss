@@ -11,6 +11,7 @@
   background-color: $bg_1;
   padding-top: 15px;
   padding-bottom: 15px;
+  margin-top: 40px;
 }
 .footer-address{
   h6{
@@ -31,4 +32,9 @@
     color: $bg_5;
     margin-bottom: 0px;
   }
+}
+.content-footer{
+  background-color: $bg_7;
+  margin-top: 50px;
+  padding-bottom: 25px;
 }

@@ -1,0 +1,28 @@
+.menu-product-category{
+  .title{
+    font-size: 16px;
+    text-transform: none;
+    &:after{
+      display: none;
+    }
+    margin-bottom: 5px;
+  }
+  ul.menu{
+    padding: 0px;
+
+    li{
+      list-style: none;
+      padding-left: 0px;
+      margin: 0px;
+      padding:10px 0px;
+      border-bottom: 1px solid $bg_7;
+      a{
+        font-size: 19px;
+        color: $text_gray_light;
+        &.active{
+          color: $bg_4;
+        }
+      }
+    }
+  }
+}

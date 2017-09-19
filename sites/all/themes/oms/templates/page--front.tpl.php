@@ -112,12 +112,21 @@
   <?php if ($page['home_high1'] || $page['home_high2'] || $page['home_high3']): ?>
       <div id="home-highlights" class="clearfix">
         <?php if ($page['home_high1']): ?>
-            <div class="container home-highlight-box"><?php print render($page['home_high1']); ?></div>
+            <div class="home-highlight-box">
+                <div class="container home-highlight-box1"><?php print render($page['home_high1']); ?></div>
+            </div>
         <?php endif; ?>
         <?php if ($page['home_high2']): ?>
-            <div class="container home-highlight-box"><div class="row"><?php print render($page['home_high2']); ?></div></div>
+            <div class="home-highlight-box">
+                <div class="container home-highlight-box2">
+                    <div class="row">
+                      <?php print render($page['home_high2']); ?>
+                    </div>
+                </div>
+            </div>
         <?php endif; ?>
-          <div class="container home-highlight-box remove-margin">
+          <div class="home-highlight-box">
+            <div class="container home-highlight-box3 technical remove-margin">
               <div class="title">
                   <span>Góc kỹ thuật</span>
               </div>
@@ -135,6 +144,7 @@
                       <?php print render($page['home_high3_column4']); ?>
                   </div>
               </div>
+          </div>
           </div>
       </div>
   <?php endif; ?>

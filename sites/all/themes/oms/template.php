@@ -18,7 +18,7 @@ function oms_breadcrumb($variables) {
     // Use CSS to hide titile .element-invisible.
     $output = '<h2 class="element-invisible">' . t('You are here') . '</h2>';
     // comment below line to hide current page to breadcrumb
-	$breadcrumb[] = drupal_get_title();
+    $breadcrumb[] = drupal_get_title();
     $output .= '<nav class="breadcrumb">' . implode(' » ', $breadcrumb) . '</nav>';
     return $output;
   }
@@ -51,16 +51,28 @@ function oms_process_page(&$variables) {
   if (module_exists('color')) {
     _color_page_alter($variables);
   }
- 
+
 }
 
 /**
  * Override or insert variables into the page template.
  */
 function oms_preprocess_page(&$vars) {
-    if ($vars['is_front']) {
-        unset($vars['page']['content']['system_main']);
+  if ($vars['is_front']) {
+    unset($vars['page']['content']['system_main']);
+  }
+
+  if (isset($vars['node'])) {
+    if($vars['node']->type=='webform')
+    {
+      // If the node type is "accommodation" the template suggestion will be "page--accommodation.tpl.php".
+      $vars['theme_hook_suggestions'][] = 'page__'. $vars['node']->type;
+      $vars['theme_hook_suggestions'][] = 'page__'. $vars['node']->type."__".$vars['node']->nid;
     }
+    else{
+      $vars['theme_hook_suggestions'][] = 'page__node__'. $vars['node']->type;
+    }
+  }
 
   if (isset($vars['main_menu'])) {
     $vars['main_menu'] = theme('links__system_main_menu', array(

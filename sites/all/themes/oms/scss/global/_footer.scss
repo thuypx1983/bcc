@@ -1,5 +1,5 @@
 .footer-bottom{
-  background-color: $bg_2;
+  background-color: $bg_4;
   padding: 15px 0px;
   p{
     color: $text_white;
@@ -9,4 +9,26 @@
 }
 .footer{
   background-color: $bg_1;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.footer-address{
+  h6{
+    font-size: 16px;
+    font-weight: bold;
+    color: $bg_4;
+    text-transform: uppercase;
+  }
+  p{
+    strong{
+      color: $bg_4;
+      width: 70px;
+      display: inline-block;
+    }
+    a{
+      color: $bg_5;
+    }
+    color: $bg_5;
+    margin-bottom: 0px;
+  }
 }

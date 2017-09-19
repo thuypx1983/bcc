@@ -152,14 +152,19 @@
               </div>
           </div>
       </div>
-      <div class="content-footer">
-          <div class="container">
-            <?php
-            if($page['content_footer']){
-              print render($page['content_footer']);
-            }?>
-          </div>
-      </div>
+
+    <?php
+    if($page['content_footer']){
+      ?>
+        <div class="content-footer">
+            <div class="container">
+              <?php print render($page['content_footer']);?>
+            </div>
+        </div>
+      <?php
+
+    }?>
+
   </div>
   <footer>
     <div id="footer" class="footer">

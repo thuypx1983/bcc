@@ -43,3 +43,10 @@ body.not-front{
     margin-bottom: 20px;
   }
 }
+
+.form-submit{
+  border: none;
+  padding: 5px 10px;
+  font-weight: bold;
+  color: $text_white;
+}

@@ -135,6 +135,17 @@
                     <section id="post-content" role="main">
                       <?php print render($page['content']); ?>
                     </section>
+                  <?php
+                  if($page['content_after']){
+                    ?>
+                      <div class="content-after">
+                          <div class="container">
+                            <?php print render($page['content_after']);?>
+                          </div>
+                      </div>
+                    <?php
+
+                  }?>
                 </div>
             </div>
           </div>

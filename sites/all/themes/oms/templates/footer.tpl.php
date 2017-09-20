@@ -1,7 +1,9 @@
 <footer>
   <div id="footer" class="footer">
     <div class="container">
-      <?php print render($page['footer']) ?>
+      <div class="row">
+        <?php print render($page['footer']) ?>
+      </div>
     </div>
   </div>
 

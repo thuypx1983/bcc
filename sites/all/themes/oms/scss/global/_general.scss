@@ -53,3 +53,20 @@ body.not-front{
   font-weight: bold;
   color: $text_white;
 }
+
+@include bp(max-width,$bp-tablet){
+  .block {
+    .title{
+      text-align: center;
+      font-size: 15px;
+      display: block;
+      text-align: center;
+      &:after{
+        width: 40px;
+        left: 50%;
+        transform: translate(-50%, 0);
+        bottom: -3px;
+      }
+    }
+  }
+}

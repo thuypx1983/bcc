@@ -76,3 +76,39 @@
   padding-top: 20px;
   padding-bottom: 20px;
 }
+
+@include bp(max-width,$bp-tablet){
+  .home-highlight-box3{
+    margin-top:0px;
+  }
+
+  .technical{
+    div.title{
+      span{
+        font-size: inherit;
+      }
+      padding: 0px;
+      margin-bottom: 30px;
+      position: relative;
+      &:after{
+        content: "";
+        position: absolute;
+        height: 3px;
+        background-color: $bg_2;
+
+        width: 40px;
+        left: 50%;
+        transform: translate(-50%, 0);
+        bottom: -5px;
+      }
+    }
+    .block{
+      .title{
+        font-size: inherit;
+        span{
+          font-size: inherit;
+        };
+      }
+    }
+  }
+}

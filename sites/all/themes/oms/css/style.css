@@ -82,6 +82,22 @@ body.not-front a {
   color: #fff;
 }
 
+@media only screen and (max-width: 991px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/global\/_general\.scss}line{font-family:\0000359}}
+  .block .title {
+    text-align: center;
+    font-size: 15px;
+    display: block;
+    text-align: center;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/global\/_general\.scss}line{font-family:\0000364}}
+  .block .title:after {
+    width: 40px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    bottom: -3px;
+  }
+}
 @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/global\/_header\.scss}line{font-family:\000032}}
 #header-top {
   background-color: #E1F4FC;
@@ -530,6 +546,12 @@ body.not-front a {
   padding-bottom: 20px;
 }
 
+@media only screen and (max-width: 991px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/components\/_block-front-news\.scss}line{font-family:\0000353}}
+  .home-highlight-box2 {
+    margin-top: 0px;
+  }
+}
 @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/components\/_block-front-videos\.scss}line{font-family:\000032}}
 .videos-font .views-row {
   display: block;
@@ -584,6 +606,12 @@ body.not-front a {
   margin-bottom: 20px;
 }
 
+@media only screen and (max-width: 991px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/components\/_block-front-videos\.scss}line{font-family:\0000359}}
+  .videos-font {
+    margin-top: 40px;
+  }
+}
 @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/components\/_block-front-technical\.scss}line{font-family:\000032}}
 .technical div.title {
   text-align: center;
@@ -667,6 +695,42 @@ body.not-front a {
   padding-bottom: 20px;
 }
 
+@media only screen and (max-width: 991px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/components\/_block-front-technical\.scss}line{font-family:\0000381}}
+  .home-highlight-box3 {
+    margin-top: 0px;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/components\/_block-front-technical\.scss}line{font-family:\0000386}}
+  .technical div.title {
+    padding: 0px;
+    margin-bottom: 30px;
+    position: relative;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/components\/_block-front-technical\.scss}line{font-family:\0000387}}
+  .technical div.title span {
+    font-size: inherit;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/components\/_block-front-technical\.scss}line{font-family:\0000393}}
+  .technical div.title:after {
+    content: "";
+    position: absolute;
+    height: 3px;
+    background-color: #3AA6C9;
+    width: 40px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    bottom: -5px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/components\/_block-front-technical\.scss}line{font-family:\00003106}}
+  .technical .block .title {
+    font-size: inherit;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/components\/_block-front-technical\.scss}line{font-family:\00003108}}
+  .technical .block .title span {
+    font-size: inherit;
+  }
+}
 @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/components\/_block-follow-me\.scss}line{font-family:\000031}}
 .follow-me {
   position: absolute;

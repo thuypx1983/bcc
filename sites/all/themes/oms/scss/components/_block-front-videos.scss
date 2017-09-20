@@ -55,3 +55,8 @@
     margin-bottom: 20px;
   }
 }
+@include bp(max-width,$bp-tablet){
+  .videos-font{
+    margin-top: 40px;
+  }
+}

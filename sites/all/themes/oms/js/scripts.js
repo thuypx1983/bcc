@@ -80,6 +80,8 @@
         STNScript.detectStar();
         STNScript.detectStar();
 
+    })
+    $(window).on('load',function(){
         STNScript.autoHeight();
         $(window).resize(function () {
             STNScript.autoHeight();

@@ -65,100 +65,55 @@
  */
 ?>
 
+
 <div id="wrap">
-    <header >
-        <div id="header-top">
-          <div class="container">
-            <div class="row">
-              <?php print render($page['header_top']); ?>
-            </div>
-          </div>
-        </div>
-        <div id="header">
-            <div class="container">
-                <div class="pull-left">
-                    <?php if ($logo): ?>
-              <div id="logo">
-                  <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>"><img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" /></a>
-              </div>
-          <?php endif; ?>
-                </div>
-                <div class="pull-right">
-                    <nav id="navigation" class="clearfix" role="navigation">
-                        <div id="main-menu">
-                      <?php
-                      if (module_exists('i18n_menu')) {
-                        $main_menu_tree = i18n_menu_translated_tree(variable_get('menu_main_links_source', 'main-menu'));
-                      } else {
-                        $main_menu_tree = menu_tree(variable_get('menu_main_links_source', 'main-menu'));
-                      }
-                      print drupal_render($main_menu_tree);
-                      ?>
-                    </div>
-                    </nav><!-- end main-menu -->
-                </div>
-            </div>
-        </div>
-    </header>
-
-  <?php print render($page['header']); ?>
-
-  <?php print $messages; ?>
-    <div class="clearfix"></div>
+    <?php
+    include(drupal_get_path('theme', 'oms').'/templates/header.tpl.php');
+    ?>
   <?php if ($page['home_banner']): ?>
       <div id="home-banner"> <?php print render($page['home_banner']); ?></div>
   <?php endif; ?>
 
-  <?php if ($page['home_high1'] || $page['home_high2'] || $page['home_high3']): ?>
-      <div id="home-highlights" class="clearfix">
-        <?php if ($page['home_high1']): ?>
-            <div class="home-highlight-box">
-                <div class="container home-highlight-box1"><?php print render($page['home_high1']); ?></div>
-            </div>
-        <?php endif; ?>
-        <?php if ($page['home_high2']): ?>
-            <div class="home-highlight-box">
-                <div class="container home-highlight-box2">
-                    <div class="row">
-                      <?php print render($page['home_high2']); ?>
+    <div id="home-highlights" class="clearfix">
+      <?php if ($page['home_high1']): ?>
+          <div class="home-highlight-box">
+              <div class="container home-highlight-box1"><?php print render($page['home_high1']); ?></div>
+          </div>
+      <?php endif; ?>
+      <?php if ($page['home_high2']): ?>
+          <div class="home-highlight-box">
+              <div class="container home-highlight-box2">
+                  <div class="row">
+                    <?php print render($page['home_high2']); ?>
+                  </div>
+              </div>
+          </div>
+      <?php endif; ?>
+        <div class="home-highlight-box">
+            <div class="container home-highlight-box3 technical remove-margin">
+                <div class="title">
+                    <span>Góc kỹ thuật</span>
+                </div>
+                <div class="row">
+                    <div class="col-md-3">
+                      <?php print render($page['home_high3_column1']); ?>
+                    </div>
+                    <div class="col-md-3">
+                      <?php print render($page['home_high3_column2']); ?>
+                    </div>
+                    <div class="col-md-3">
+                      <?php print render($page['home_high3_column3']); ?>
+                    </div>
+                    <div class="col-md-3">
+                      <?php print render($page['home_high3_column4']); ?>
                     </div>
                 </div>
             </div>
-        <?php endif; ?>
-          <div class="home-highlight-box">
-            <div class="container home-highlight-box3 technical remove-margin">
-              <div class="title">
-                  <span>Góc kỹ thuật</span>
-              </div>
-              <div class="row">
-                  <div class="col-md-3">
-                      <?php print render($page['home_high3_column1']); ?>
-                  </div>
-                  <div class="col-md-3">
-                      <?php print render($page['home_high3_column2']); ?>
-                  </div>
-                  <div class="col-md-3">
-                      <?php print render($page['home_high3_column3']); ?>
-                  </div>
-                  <div class="col-md-3">
-                      <?php print render($page['home_high3_column4']); ?>
-                  </div>
-              </div>
-          </div>
-          </div>
-      </div>
-  <?php endif; ?>
-  <footer>
-      <div id="footer" class="footer">
-          <div class="container">
-            <?php print render($page['footer']) ?>
-          </div>
-      </div>
+        </div>
+    </div>
 
-      <div id="footer-bottom" class="footer-bottom">
-          <div class="container">
-              <?php print render($page['footer_bottom']) ?>
-          </div>
-      </div>
-  </footer>
+  <?php
+  include(drupal_get_path('theme', 'oms').'/templates/footer.tpl.php');
+  ?>
+
 </div>

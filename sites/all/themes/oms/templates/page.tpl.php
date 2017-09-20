@@ -66,46 +66,9 @@
 ?>
 
 <div id="wrap">
-    <header >
-        <div id="header-top">
-            <div class="container">
-                <div class="row">
-                  <?php print render($page['header_top']); ?>
-                </div>
-            </div>
-        </div>
-        <div id="header">
-            <div class="container">
-                <div class="pull-left">
-                  <?php if ($logo): ?>
-                      <div id="logo">
-                          <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>"><img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" /></a>
-                      </div>
-                  <?php endif; ?>
-                </div>
-                <div class="pull-right">
-                    <nav id="navigation" class="clearfix" role="navigation">
-                        <div id="main-menu">
-                          <?php
-                          if (module_exists('i18n_menu')) {
-                            $main_menu_tree = i18n_menu_translated_tree(variable_get('menu_main_links_source', 'main-menu'));
-                          } else {
-                            $main_menu_tree = menu_tree(variable_get('menu_main_links_source', 'main-menu'));
-                          }
-                          print drupal_render($main_menu_tree);
-                          ?>
-                        </div>
-                    </nav><!-- end main-menu -->
-                </div>
-            </div>
-        </div>
-    </header>
-
-  <?php print render($page['header']); ?>
-
-  <?php print $messages; ?>
-    <div class="clearfix"></div>
-
+      <?php
+      include(drupal_get_path('theme', 'oms').'/templates/header.tpl.php');
+      ?>
     <div id="main">
         <div class="page-title">
             <div class="container">
@@ -161,17 +124,8 @@
 
       }?>
     </div>
-    <footer>
-        <div id="footer" class="footer">
-            <div class="container">
-              <?php print render($page['footer']) ?>
-            </div>
-        </div>
 
-        <div id="footer-bottom" class="footer-bottom">
-            <div class="container">
-              <?php print render($page['footer_bottom']) ?>
-            </div>
-        </div>
-    </footer>
+      <?php
+      include(drupal_get_path('theme', 'oms').'/templates/footer.tpl.php');
+      ?>
 </div>

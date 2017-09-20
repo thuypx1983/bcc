@@ -1,9 +1,4 @@
-header{
-  z-index: 100;
-  position: fixed;
-  top: 0px;
-  width: 100%;
-}
+
 #header-top{
   background-color: $bg_1;
   padding-top: 20px;
@@ -13,6 +8,7 @@ header{
 #header{
   background-color: rgba(255, 255, 255, 0.6);
   position: relative;
+  z-index: 9;
   .pull-left{
     position: absolute;
     height: 100%;

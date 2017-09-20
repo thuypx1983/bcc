@@ -52,6 +52,10 @@
             STNScript.equalHeight('.view-technical-list .views-row');
         },
 
+        createMenuMobile:function(){
+            $( "#navigation" ).clone().appendTo( ".mobile-menu-container" );
+        },
+
         /*
          * detect star for display
          */
@@ -79,6 +83,7 @@
         STNScript.initSlick();
         STNScript.detectStar();
         STNScript.detectStar();
+        STNScript.createMenuMobile();
 
     })
     $(window).on('load',function(){

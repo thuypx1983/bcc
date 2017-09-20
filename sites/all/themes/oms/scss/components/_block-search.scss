@@ -36,3 +36,18 @@
   }
 
 }
+
+@include bp(max-width,$bp-tablet){
+  #block-search-form{
+    display: none;
+    &.open-popup{
+      position: fixed;
+      width: 100%;
+      height: 200px;
+      top: 0;
+      z-index: 9999;
+      background: #191918;
+      display: block;
+    }
+  }
+}

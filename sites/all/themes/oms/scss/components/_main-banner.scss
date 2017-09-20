@@ -2,6 +2,9 @@
 .front{
   #home-banner{
     margin-top: -85px;
+    display: inline-block;
+    width: 100%
+
   }
 }
 .banner-home{
@@ -18,6 +21,18 @@
       font-size: 30px;
       font-weight: bold;
       font-style: italic;
+    }
+  }
+}
+
+@include bp(max-width,$bp-tablet){
+  .front{
+    #home-banner{
+      margin-top: 0px;
+      .views-field-title{
+        padding: 5px;
+        font-size: 13px;
+      }
     }
   }
 }

@@ -12,13 +12,18 @@
 
       <div class="pull-left mobile-header">
         <?php if ($logo): ?>
-          <div id="logo">
+          <div id="logo" class="">
             <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>"><img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" /></a>
           </div>
         <?php endif; ?>
-          <div class="mobile-menu hidden-lg hidden-md">
-              <div class="menu-icon">
-                  <button class="menu-btn">☰ Menu</button>
+          <div class="mobile-menu hidden-lg hidden-md ">
+              <div class="menu-btn">
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+              </div>
+              <div class="search-icon">
+                  <span class="glyphicon glyphicon-search"></span>
               </div>
 
           </div>

@@ -45,3 +45,47 @@
     }
   }
 }
+
+
+@include bp(max-width,$bp-tablet){
+
+  .menu-btn{
+    display: inline-block;
+    float: right;
+    span.icon-bar{
+      display: block;
+      height: 4px;
+      background-color: red;
+      width: 35px;
+      margin-bottom: 10px;
+      border-radius: 2px;
+    }
+  }
+  .search-icon{
+    display: inline-block;
+    float: right;
+    font-size: 33px;
+    line-height: 33px;
+    margin-right: 10px;
+  }
+  .mobile-header{
+    display: table;
+    width: 100%;
+    #logo{
+      display: table-cell !important;
+      float: none;
+    }
+    .mobile-menu{
+      display: table-cell;
+      vertical-align: middle;
+      float: none;
+    }
+  }
+  #header .pull-left #logo a{
+    justify-content: left;
+    align-items: left;
+    img{
+      max-height: 68px;
+    }
+  }
+}

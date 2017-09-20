@@ -35,6 +35,31 @@
         }
       }
 
+
+    }
+
+    .views-field-field-image{
+      img{
+        -webkit-filter: brightness(.8);
+        filter: brightness(.8);
+      }
+    }
+  }
+}
+@include bp(max-width,$bp-tablet){
+  .category-list{
+
+    .views-row{
+
+      .views-field-name{
+        width: auto;
+        padding-right: 10px;
+        font-size: 20px;
+      }
+      .views-field-name-1{
+
+
+      }
     }
   }
 }

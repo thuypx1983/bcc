@@ -37,6 +37,7 @@
             $('.banner-home .view-banner .view-content').slick({
                 autoplay: true,
                 autoplaySpeed: 2000,
+                arrows: false,
             })
             $('.related-products .view-content').slick({
                 infinite: true,
@@ -76,18 +77,26 @@
 
             })
         },
+
+        searchMobile:function () {
+            $('.search-icon').click(function(){
+                $('#block-search-form').addClass('open-popup');
+            })
+        }
     }
 
 
     $(document).ready(function(){
         STNScript.initSlick();
         STNScript.detectStar();
-        STNScript.detectStar();
         STNScript.createMenuMobile();
+        STNScript.searchMobile();
+
 
     })
     $(window).on('load',function(){
         STNScript.autoHeight();
+        STNScript.searchMobile();
         $(window).resize(function () {
             STNScript.autoHeight();
         })

@@ -33,3 +33,10 @@
     }
   }
 }
+
+
+@include bp(max-width,$bp-tablet) {
+  .menu-top{
+    display: none;
+  }
+}

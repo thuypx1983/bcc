@@ -1,6 +1,36 @@
 (function($) {
     var STNScript = {
+        // Equal height function
+        // Replace "obj" param with your selector
+        equalHeight: function (obj) {
+            var currentTallest = 0,
+                currentRowStart = 0,
+                rowDivs = [],
+                $el,
+                topPosition = 0;
+            $(obj).each(function () {
 
+                $el = $(this);
+                $el.height('auto');
+                topPostion = $el.offset().top;
+
+                if (currentRowStart != topPostion) {
+                    for (currentDiv = 0; currentDiv < rowDivs.length; currentDiv++) {
+                        rowDivs[currentDiv].height(currentTallest);
+                    }
+                    rowDivs.length = 0;
+                    currentRowStart = topPostion;
+                    currentTallest = $el.height();
+                    rowDivs.push($el);
+                } else {
+                    rowDivs.push($el);
+                    currentTallest = (currentTallest < $el.height()) ? ($el.height()) : (currentTallest);
+                }
+                for (currentDiv = 0; currentDiv < rowDivs.length; currentDiv++) {
+                    rowDivs[currentDiv].height(currentTallest);
+                }
+            });
+        },
         //
         initSlick:function(){
 
@@ -15,6 +45,11 @@
                 autoplay: true,
                 autoplaySpeed: 2000,
             })
+        },
+
+        autoHeight:function(){
+            STNScript.equalHeight('.view-id-product_list .views-row');
+            STNScript.equalHeight('.view-technical-list .views-row');
         },
 
         /*
@@ -43,5 +78,11 @@
     $(document).ready(function(){
         STNScript.initSlick();
         STNScript.detectStar();
+        STNScript.detectStar();
+
+        STNScript.autoHeight();
+        $(window).resize(function () {
+            STNScript.autoHeight();
+        })
     })
 })(jQuery)

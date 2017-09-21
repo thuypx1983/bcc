@@ -53,6 +53,9 @@ body.not-front{
   font-weight: bold;
   color: $text_white;
 }
+.html #wrap{
+  border: none;
+}
 
 @include bp(max-width,$bp-tablet){
   .block {

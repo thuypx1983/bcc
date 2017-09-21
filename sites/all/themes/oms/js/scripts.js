@@ -101,6 +101,8 @@
 
 
     $(document).ready(function(){
+        $('#block-search-form').prepend('<span class="btn-close">x</span>')
+
         STNScript.initSlick();
         STNScript.detectStar();
         STNScript.createMenuMobile();

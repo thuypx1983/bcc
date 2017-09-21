@@ -17,13 +17,18 @@
           </div>
         <?php endif; ?>
           <div class="mobile-menu hidden-lg hidden-md ">
-              <div class="menu-btn">
-                      <span class="icon-bar"></span>
-                      <span class="icon-bar"></span>
-                      <span class="icon-bar"></span>
+              <div class="hotline-mobile">
+                  <span>Hotline 123 456 789</span>
               </div>
-              <div class="search-icon">
-                  <span class="glyphicon glyphicon-search"></span>
+              <div class="">
+                  <div class="menu-btn">
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                  </div>
+                  <div class="search-icon">
+                      <span class="glyphicon glyphicon-search"></span>
+                  </div>
               </div>
 
           </div>

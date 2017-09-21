@@ -39,16 +39,13 @@
       }
     }
   }
+  .footer-address{
+    .title{
+      color: $text_gray;
+    }
+  }
 }
 .footer-address{
-  h6{
-    font-size: 14px;
-    font-weight: bold;
-    color: $text_gray;
-    text-transform: uppercase;
-    margin: 0px;
-    text-transform: none;
-  }
   p{
     color: $text_gray;
     font-size: 13px;
@@ -67,4 +64,15 @@
   background-color: $bg_7;
   margin-top: 50px;
   padding-bottom: 25px;
+}
+
+@include bp(max-width,$bp-tablet){
+  .footer{
+    .block{
+      margin-top: 30px;
+      .title{
+        text-align: left;
+      }
+    }
+  }
 }

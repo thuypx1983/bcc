@@ -61,9 +61,16 @@
           position: relative;
           margin-right: 15px;
           &:before{
-            content: "•";
-            left: 0px;
+            background-color: $text_gray;
+            border-radius: 50%;
+            content: "";
+            display: block;
+            height: 4px;
+            left: 0;
             position: absolute;
+            top: 50%;
+            transform: translate(0px, -50%);
+            width: 4px;
           }
 
         }

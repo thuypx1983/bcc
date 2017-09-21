@@ -81,6 +81,7 @@
         searchMobile:function () {
             $('.search-icon').click(function(){
                 $('#block-search-form').addClass('open-popup');
+                $("#edit-search-block-form--2").focus();
             })
         }
     }
@@ -91,12 +92,17 @@
         STNScript.detectStar();
         STNScript.createMenuMobile();
         STNScript.searchMobile();
+        
+        $(document).on("click",function (event) {
+            if (!$(event.target).is("#block-search-form,.search-icon,.glyphicon-search,#edit-search-block-form--2")) {
+                $('#block-search-form').removeClass('open-popup');;
 
+            }
+        })
 
     })
     $(window).on('load',function(){
         STNScript.autoHeight();
-        STNScript.searchMobile();
         $(window).resize(function () {
             STNScript.autoHeight();
         })

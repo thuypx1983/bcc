@@ -39,6 +39,7 @@
 
 @include bp(max-width,$bp-tablet){
   #block-search-form{
+    padding-top: 80px;
     display: none;
     &.open-popup{
       position: fixed;
@@ -46,8 +47,16 @@
       height: 200px;
       top: 0;
       z-index: 9999;
-      background: #191918;
+      background: rgb(54, 25, 25); /* Fall-back for browsers that don't
+                                    support rgba */
+      background: rgba(00, 00, 00, 0.7);
       display: block;
+    }
+    .form-type-textfield{
+      .form-text{
+        background-color: $text_white;
+        color: $text_black;
+      }
     }
   }
 }

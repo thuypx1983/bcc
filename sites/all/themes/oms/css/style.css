@@ -110,7 +110,11 @@ body.not-front {
     z-index: 9; }
     #header .pull-left {
       position: inherit;
-      float: none !important; } }
+      float: none !important; }
+
+  #header-top {
+    height: 0px;
+    padding: 0px; } }
 .footer-bottom {
   background-color: #164d81;
   padding: 15px 0px; }

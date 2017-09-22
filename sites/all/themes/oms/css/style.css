@@ -1129,13 +1129,13 @@ body.not-front a {
   }
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/pages\/_page-news\.scss}line{font-family:\000034}}
-.page-tin-tuc .view-news.view-display-id-page_1 .views-row,
-.page-tin-tuc .view-news.view-display-id-page_2 .views-row {
+.view-news.view-display-id-page_1 .views-row,
+.view-news.view-display-id-page_2 .views-row {
   margin-bottom: 20px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/pages\/_page-news\.scss}line{font-family:\000037}}
-.page-tin-tuc .view-news.view-display-id-page_1 .views-row .views-field-title a,
-.page-tin-tuc .view-news.view-display-id-page_2 .views-row .views-field-title a {
+.view-news.view-display-id-page_1 .views-row .views-field-title a,
+.view-news.view-display-id-page_2 .views-row .views-field-title a {
   display: block;
   color: #7a7a7a;
   padding: 10px 0px;
@@ -1143,8 +1143,8 @@ body.not-front a {
   height: 80px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/pages\/_page-news\.scss}line{font-family:\0000316}}
-.page-tin-tuc .view-news.view-display-id-page_1 .views-row .views-row,
-.page-tin-tuc .view-news.view-display-id-page_2 .views-row .views-row {
+.view-news.view-display-id-page_1 .views-row .views-row,
+.view-news.view-display-id-page_2 .views-row .views-row {
   margin-bottom: 20px;
 }
 

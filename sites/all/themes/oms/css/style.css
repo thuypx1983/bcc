@@ -194,7 +194,8 @@ body.not-front {
       font-size: 18px;
       padding: 25px 0px;
       display: block;
-      position: relative; }
+      position: relative;
+      color: #3AA6C9; }
       #navigation ul.menu li a.active {
         background: transparent;
         color: #ED443D; }

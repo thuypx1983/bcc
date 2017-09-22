@@ -94,40 +94,34 @@
                       </aside>
                   </div>
               <?php endif; ?>
-              <?php
-              $main_class="col-md-12";
-              if($page['sidebar_first'] AND $page['sidebar_second']){
-                $main_class="col-md-6";
-              }elseif(!$page['sidebar_first'] AND !$page['sidebar_second']){
-                $main_class="col-md-12";
-              }else{
-                $main_class="col-md-9";
-              }
-              ?>
-                <div class="<?php echo $main_class?>">
-                    <section id="post-content" role="main">
-                      <?php print render($page['content']); ?>
-                    </section>
-                  <?php
-                  if($page['content_after']){
-                    ?>
-                      <div class="content-after">
-                          <div class="container">
-                            <?php print render($page['content_after']);?>
-                          </div>
-                      </div>
-                    <?php
+                <div class="col-md-9">
+                    <div class="banner-second">
+                      <?php print render($page['banner_top_content']);?>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-9">
+                            <section id="post-content" role="main">
+                              <?php print render($page['content']); ?>
+                            </section>
+                          <?php
+                          if($page['content_after']){
+                            ?>
+                              <div class="content-after">
+                                  <div class="container">
+                                    <?php print render($page['content_after']);?>
+                                  </div>
+                              </div>
+                              <div class="col-md-3">
+                                  <aside id="sidebar" role="complementary" class="sidebar clearfix">
+                                    <?php print render($page['sidebar_second']); ?>
+                                  </aside>
+                              </div>
+                            <?php
 
-                  }?>
+                          }?>
+                        </div>
+                    </div>
                 </div>
-
-              <?php if ($page['sidebar_second']): ?>
-                  <div class="col-md-3">
-                      <aside id="sidebar" role="complementary" class="sidebar clearfix">
-                        <?php print render($page['sidebar_second']); ?>
-                      </aside>
-                  </div>
-              <?php endif; ?>
 
             </div>
         </div>

@@ -17,12 +17,17 @@
 /* breakpoint with two conditions (min and max) */
 /*global*/
 @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/global\/_general\.scss}line{font-family:\000031}}
+body.html {
+  font-family: 'Roboto', sans-serif;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/global\/_general\.scss}line{font-family:\000034}}
 img {
   max-width: 100%;
   height: auto;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/global\/_general\.scss}line{font-family:\000036}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/global\/_general\.scss}line{font-family:\000039}}
 .block .title {
   font-size: 25px;
   font-weight: bold;
@@ -32,7 +37,7 @@ img {
   color: #164d81;
   margin-bottom: 25px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/global\/_general\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/global\/_general\.scss}line{font-family:\0000317}}
 .block .title:after {
   content: "";
   position: absolute;
@@ -43,38 +48,38 @@ img {
   left: 0px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/global\/_general\.scss}line{font-family:\0000326}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/global\/_general\.scss}line{font-family:\0000329}}
 .sidebar .block {
   margin-bottom: 30px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/global\/_general\.scss}line{font-family:\0000331}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/global\/_general\.scss}line{font-family:\0000334}}
 .home-highlight-box {
   background-color: #fff;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/global\/_general\.scss}line{font-family:\0000334}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/global\/_general\.scss}line{font-family:\0000337}}
 body.not-front {
   background-color: #fff;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/global\/_general\.scss}line{font-family:\0000336}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/global\/_general\.scss}line{font-family:\0000339}}
 body.not-front a {
   color: #3AA6C9;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/global\/_general\.scss}line{font-family:\0000340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/global\/_general\.scss}line{font-family:\0000343}}
 .page-title {
   background-color: #164d81;
   margin-bottom: 25px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/global\/_general\.scss}line{font-family:\0000343}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/global\/_general\.scss}line{font-family:\0000346}}
 .page-title h1.title, .page-title h2.title {
   color: #fff;
   font-size: 30px;
   margin-bottom: 20px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/global\/_general\.scss}line{font-family:\0000350}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/global\/_general\.scss}line{font-family:\0000353}}
 .form-submit {
   border: none;
   padding: 5px 10px;
@@ -82,20 +87,20 @@ body.not-front a {
   color: #fff;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/global\/_general\.scss}line{font-family:\0000356}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/global\/_general\.scss}line{font-family:\0000359}}
 .html #wrap {
   border: none;
 }
 
 @media only screen and (max-width: 767px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/global\/_general\.scss}line{font-family:\0000362}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/global\/_general\.scss}line{font-family:\0000365}}
   .block .title {
     text-align: center;
     font-size: 15px;
     display: block;
     text-align: center;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/global\/_general\.scss}line{font-family:\0000367}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/global\/_general\.scss}line{font-family:\0000370}}
   .block .title:after {
     width: 40px;
     left: 50%;
@@ -103,7 +108,7 @@ body.not-front a {
     bottom: -3px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/global\/_general\.scss}line{font-family:\0000375}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/global\/_general\.scss}line{font-family:\0000378}}
   #sidebar {
     margin-top: 50px;
   }
@@ -947,6 +952,73 @@ body.not-front a {
   padding: 10px;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/components\/_block-news-left-sidebar\.scss}line{font-family:\000033}}
+.news-left-sidebar.block .title {
+  font-size: 18px;
+  font-weight: normal;
+  text-transform: none;
+  font-weight: bold;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/components\/_block-news-left-sidebar\.scss}line{font-family:\000038}}
+.news-left-sidebar.block .title:after {
+  background-color: #ffbc00;
+  width: 50px;
+  bottom: -8px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/components\/_block-news-left-sidebar\.scss}line{font-family:\0000314}}
+.news-left-sidebar.block .views-field-title {
+  padding-bottom: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/components\/_block-news-left-sidebar\.scss}line{font-family:\0000316}}
+.news-left-sidebar.block .views-field-title a {
+  color: #797979;
+  font-size: 14px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/components\/_block-news-left-sidebar\.scss}line{font-family:\0000320}}
+.news-left-sidebar.block .views-field-title:before {
+  content: '\2022 ';
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/components\/_block-menu-news\.scss}line{font-family:\000033}}
+.menu-news ul li {
+  list-style: none;
+  display: block;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #9a9a9a;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/components\/_block-menu-news\.scss}line{font-family:\000038}}
+.menu-news ul li a {
+  font-size: 16px;
+  color: #797979;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/components\/_block-menu-news\.scss}line{font-family:\0000311}}
+.menu-news ul li a.active {
+  color: #164d81;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/components\/_block-menu-news\.scss}line{font-family:\0000314}}
+.menu-news ul li a:before {
+  content: "> ";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/components\/_social-buttons\.scss}line{font-family:\000031}}
+.social-buttons {
+  display: table;
+  width: 100%;
+  text-align: right;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/components\/_social-buttons\.scss}line{font-family:\000035}}
+.social-buttons .facebook-button {
+  display: inline-block;
+  height: 27px;
+  overflow: hidden;
+  margin-right: 4px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/components\/_social-buttons\.scss}line{font-family:\0000311}}
+.social-buttons .google-plus-button {
+  overflow: hidden;
+  display: inline-block;
+}
+
 /*page*/
 @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/pages\/_page-product-list\.scss}line{font-family:\000032}}
 .best-sell-product .title {
@@ -1067,6 +1139,13 @@ body.not-front a {
   font-size: 18px;
   display: block;
   padding-bottom: 10px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/pages\/_page-news-detail\.scss}line{font-family:\000031}}
+h1.news-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #164d81;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/pages\/_page-product-detail\.scss}line{font-family:\000032}}

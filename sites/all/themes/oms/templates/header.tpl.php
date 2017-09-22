@@ -18,7 +18,7 @@
         <?php endif; ?>
           <div class="mobile-menu hidden-lg hidden-md ">
               <div class="hotline-mobile">
-                  <span>Hotline 123 456 789</span>
+                  <span><?php echo t('Hotline 123 456 789')?></span>
               </div>
               <div class="">
                   <div class="menu-btn">

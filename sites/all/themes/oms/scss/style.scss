@@ -26,10 +26,14 @@
 @import "components/block-related-products";
 @import "components/block-menu-product-category";
 @import "components/block-support";
+@import "components/block-news-left-sidebar";
+@import "components/block-menu-news";
+@import "components/social-buttons";
 
 /*page*/
 @import "pages/page-home";
 @import "pages/page-product-list";
 @import "pages/page-news";
+@import "pages/page-news-detail";
 @import "pages/page-product-detail";
 @import "pages/page-technical-list";

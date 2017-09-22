@@ -39,6 +39,11 @@
                 autoplaySpeed: 2000,
                 arrows: false,
             })
+            $('.banner-second .view-banner .view-content').slick({
+                autoplay: true,
+                autoplaySpeed: 2000,
+                arrows: false
+            })
             $('.related-products .view-content').slick({
                 infinite: true,
                 slidesToShow: 4,

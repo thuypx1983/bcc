@@ -1,0 +1,20 @@
+.menu-news{
+  ul{
+    li{
+      list-style: none;
+      display: block;
+      padding-bottom: 10px;
+      border-bottom: 1px solid $text_gray_light;
+      a{
+        font-size: 16px;
+        color: $text_black_light;
+        &.active{
+          color: $bg_4;
+        }
+        &:before{
+          content: "> ";
+        }
+      }
+    }
+  }
+}

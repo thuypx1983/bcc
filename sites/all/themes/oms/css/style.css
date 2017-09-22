@@ -1029,6 +1029,22 @@ body.not-front a {
   display: inline-block;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/components\/_pager\.scss}line{font-family:\000031}}
+.pager li > a, .pager li > span {
+  border-radius: 0px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/components\/_pager\.scss}line{font-family:\000034}}
+.item-list .pager li {
+  padding: 5px;
+  margin-left: 2px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/components\/_pager\.scss}line{font-family:\000037}}
+.item-list .pager li a, .item-list .pager li span {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
 /*page*/
 @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/pages\/_page-product-list\.scss}line{font-family:\000032}}
 .best-sell-product .title {

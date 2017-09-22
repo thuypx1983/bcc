@@ -1,4 +1,5 @@
 body.html{
+  color: $text_gray_light;
   font-family: 'Roboto', sans-serif;
 }
 img{
@@ -58,6 +59,13 @@ body.not-front{
 }
 .html #wrap{
   border: none;
+}
+
+.form-type-item{
+  .created{
+    font-size: 12px;
+    display: inline-block;
+  }
 }
 
 @include bp(max-width,$bp-tablet){

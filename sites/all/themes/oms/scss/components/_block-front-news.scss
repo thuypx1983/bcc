@@ -28,7 +28,7 @@
 
         position: relative;
         &:after{
-          content: "•";
+          content: "\2022";
           position: absolute;
           left: 0px;
         }

@@ -99,7 +99,7 @@
                       <?php print render($page['banner_top_content']);?>
                     </div>
                     <div class="row">
-                        <div class="col-md-9">
+                        <div class="col-md-8">
                             <section id="post-content" role="main">
                               <?php print render($page['content']); ?>
                             </section>
@@ -117,7 +117,7 @@
                           }?>
 
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-md-4">
                             <aside id="sidebar" role="complementary" class="sidebar clearfix">
                               <?php print render($page['sidebar_second']); ?>
                             </aside>

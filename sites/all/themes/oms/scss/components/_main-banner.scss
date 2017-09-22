@@ -25,6 +25,9 @@
   }
 }
 
+.banner-second{
+  margin-bottom: 30px;
+}
 @include bp(max-width,$bp-tablet){
   .front{
     #home-banner{

@@ -587,7 +587,7 @@ body.not-front {
 .follow-me p {
   color: #3AA6C9;
   font-size: 18px; }
-.follow-me .social-icon-footer img {
+.follow-me .social-icon-footer a {
   padding-left: 20px; }
 
 #block-menu-menu-he-gia-tri-code-loi ul.menu {

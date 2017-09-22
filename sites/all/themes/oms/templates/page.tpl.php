@@ -105,6 +105,15 @@
               }
               ?>
                 <div class="<?php echo $main_class?>">
+                  <?php
+                  if($page['banner_top_content']){
+                    ?>
+                      <div class="banner-second">
+                        <?php print render($page['banner_top_content']);?>
+                      </div>
+                    <?php
+                  }
+                  ?>
                     <section id="post-content" role="main">
                       <?php print render($page['content']); ?>
                     </section>

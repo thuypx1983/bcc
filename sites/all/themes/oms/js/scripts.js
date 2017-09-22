@@ -56,6 +56,7 @@
         autoHeight:function(){
             STNScript.equalHeight('.view-id-product_list .views-row');
             STNScript.equalHeight('.view-technical-list .views-row');
+            STNScript.equalHeight('.page-tin-tuc .view-news .views-row');
         },
 
         createMenuMobile:function(){

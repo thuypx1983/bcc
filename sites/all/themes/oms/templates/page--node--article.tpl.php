@@ -111,14 +111,16 @@
                                     <?php print render($page['content_after']);?>
                                   </div>
                               </div>
-                              <div class="col-md-3">
-                                  <aside id="sidebar" role="complementary" class="sidebar clearfix">
-                                    <?php print render($page['sidebar_second']); ?>
-                                  </aside>
-                              </div>
+
                             <?php
 
                           }?>
+
+                        </div>
+                        <div class="col-md-3">
+                            <aside id="sidebar" role="complementary" class="sidebar clearfix">
+                              <?php print render($page['sidebar_second']); ?>
+                            </aside>
                         </div>
                     </div>
                 </div>

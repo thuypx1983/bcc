@@ -249,9 +249,9 @@ $databases = array (
   array (
     'default' => 
     array (
-      'database' => 'bcc',
+      'database' => 'bcc_dev',
       'username' => 'root',
-      'password' => 'root',
+      'password' => 'tXX97rk@',
       'host' => 'localhost',
       'port' => '',
       'driver' => 'mysql',

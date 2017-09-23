@@ -16,7 +16,6 @@
 
 <!--pushy menu-->
 <div class="mobile-menu-container pushy pushy-right">
-  ddddddddd
 </div>
 <div class="site-overlay"></div>
 <!--!pushy menu-->

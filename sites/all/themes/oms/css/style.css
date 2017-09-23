@@ -818,7 +818,9 @@ h1.news-title {
   text-align: justify; }
 
 .node-type-product h1.product-title {
-  font-size: 25px;
+  color: #164d81;
+  font-size: 18px;
+  font-weight: bold;
   padding-top: 0px;
   margin-top: 0px; }
 .node-type-product .form-type-item {

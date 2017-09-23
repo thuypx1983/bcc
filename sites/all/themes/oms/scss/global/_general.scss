@@ -67,6 +67,9 @@ body.not-front{
     display: inline-block;
   }
 }
+.views-field-body{
+  text-align: justify;
+}
 
 @include bp(max-width,$bp-tablet){
   .block {

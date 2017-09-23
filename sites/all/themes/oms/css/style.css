@@ -73,6 +73,9 @@ body.not-front {
   font-size: 12px;
   display: inline-block; }
 
+.views-field-body {
+  text-align: justify; }
+
 @media only screen and (max-width: 767px) {
   .block .title {
     text-align: center;
@@ -284,8 +287,10 @@ body.not-front {
         top: 5px;
         width: 1px;
         background-color: #7a7a7a; }
-    .menu-top ul li:last-child a:after {
-      display: none; }
+    .menu-top ul li:last-child a {
+      color: #ED443D; }
+      .menu-top ul li:last-child a:after {
+        display: none; }
 
 @media only screen and (max-width: 767px) {
   .menu-top {
@@ -600,7 +605,7 @@ body.not-front {
     border-bottom: 1px solid #797979;
     padding: 10px 0px; }
     #block-menu-menu-he-gia-tri-code-loi ul.menu li a {
-      font-size: 16px;
+      font-size: 15px;
       color: #9a9a9a;
       display: block;
       position: relative;
@@ -612,7 +617,7 @@ body.not-front {
         position: absolute;
         content: '>';
         left: 0px;
-        font-size: 18px;
+        font-size: 15px;
         top: -3px; }
 
 .node-type-page img {
@@ -657,7 +662,7 @@ body.not-front {
     padding: 10px 0px;
     border-bottom: 1px solid #f2f4f4; }
     .menu-product-category ul.menu li a {
-      font-size: 19px;
+      font-size: 15px;
       color: #9a9a9a; }
       .menu-product-category ul.menu li a.active {
         color: #164d81; }
@@ -692,7 +697,7 @@ body.not-front {
     padding-bottom: 10px;
     border-bottom: 1px solid #9a9a9a; }
     .menu-news ul li a {
-      font-size: 16px;
+      font-size: 15px;
       color: #797979; }
       .menu-news ul li a.active {
         color: #164d81; }

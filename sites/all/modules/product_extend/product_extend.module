@@ -26,7 +26,7 @@ function product_extend_node_view($node, $view_mode, $langcode) {
         $node->content['created'] = array(
           '#type' => 'item',
           '#title' => '',
-          '#markup' =>  '<span class="created">'.date('d-m-y').'</span>',
+          '#markup' =>  '<span class="created">'.format_date($node->created).'</span>',
           '#attributes' => array('class' => array('created')),
         );
         break;

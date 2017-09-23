@@ -9,7 +9,6 @@ stylesheets[all][] = color/colors.css
 stylesheets[all][] = js/pushy/css/pushy.css
 scripts[] = css/bootstrap-3.3.7/js/bootstrap.js
 scripts[] = js/scripts.js
-scripts[] = js/pushy/js/pushy.js
 
 regions[sidebar_first]  = Sidebar left
 regions[sidebar_second]  = Sidebar right

@@ -855,4 +855,7 @@ h1.news-title {
     text-align: justify;
     color: #9a9a9a; }
 
+.embedded-video iframe {
+  max-width: 100%; }
+
 /*# sourceMappingURL=style.css.map */

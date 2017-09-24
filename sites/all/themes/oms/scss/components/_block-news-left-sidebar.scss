@@ -16,10 +16,14 @@
       a{
         color: $text_black_light;
         font-size: 14px;
+        text-align: justify;
+        display: block;
+
+        &:before{
+          content: '\2022\2002';
+        }
       }
-      &:before{
-        content: '\2022 ';
-      }
+
     }
   }
 }

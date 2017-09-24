@@ -24,7 +24,7 @@
         position: relative;
         &::after{
           display: block;
-          content: "»";
+          content: "\00bb";
           position: absolute;
           right: 0px;
           padding: 2px 6px;

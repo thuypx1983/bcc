@@ -72,7 +72,7 @@
     <div id="main">
         <div class="page-title">
             <div class="container">
-                <h1 class="title"><?php echo $title?></h1>
+                <h1 class="title">Góc kỹ thuật</h1>
             </div>
         </div>
         <div class="container">

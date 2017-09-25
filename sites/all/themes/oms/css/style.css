@@ -1035,7 +1035,7 @@ body.not-front a {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/components\/_block-menu-news\.scss}line{font-family:\0000316}}
 .menu-news ul li a:before {
-  content: "> ";
+  content: "\2022\2002";
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/components\/_social-buttons\.scss}line{font-family:\000031}}

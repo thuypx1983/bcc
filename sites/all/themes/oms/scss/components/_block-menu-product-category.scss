@@ -9,7 +9,6 @@
   }
   ul.menu{
     padding: 0px;
-
     li{
       list-style: none;
       padding-left: 0px;
@@ -21,6 +20,9 @@
         color: $text_gray_light;
         &.active{
           color: $bg_4;
+        }
+        &:before{
+          content: '\2022\2002';
         }
       }
     }

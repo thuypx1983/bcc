@@ -70,6 +70,9 @@ body.not-front{
 .views-field-body{
   text-align: justify;
 }
+.content-after{
+  display: table;
+}
 
 @include bp(max-width,$bp-tablet){
   .block {

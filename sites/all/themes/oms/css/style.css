@@ -276,7 +276,7 @@ body.not-front {
       vertical-align: middle;
       float: none; }
       .mobile-header .mobile-menu .hotline-mobile {
-        text-align: right;
+        text-align: left;
         font-size: 12px;
         color: #ED443D;
         padding-bottom: 10px; }

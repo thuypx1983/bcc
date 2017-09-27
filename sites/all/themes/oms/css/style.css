@@ -230,7 +230,7 @@ body.not-front {
     display: none;
     border-top: 3px solid #ED443D;
     position: absolute;
-    width: 200px;
+    width: 250px;
     top: calc(100% - 3px);
     left: 0px;
     z-index: 9999;
@@ -240,7 +240,7 @@ body.not-front {
     #navigation #main-menu > ul.menu > li ul li {
       list-style: none; }
       #navigation #main-menu > ul.menu > li ul li a {
-        padding: 5px 0px 0px 0px;
+        padding: 8px 0px 0px 0px;
         font-size: 16px; }
         #navigation #main-menu > ul.menu > li ul li a:after {
           display: none;

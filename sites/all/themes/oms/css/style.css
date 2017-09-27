@@ -246,10 +246,12 @@ body.not-front {
 @media only screen and (max-width: 767px) {
   .hotline-mobile {
     text-align: center;
-    font-size: 12px;
+    font-size: 13px;
     color: #ED443D;
     font-weight: bold;
-    padding-top: 10px; }
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #E1F4FC; }
 
   .menu-btn {
     display: inline-block;

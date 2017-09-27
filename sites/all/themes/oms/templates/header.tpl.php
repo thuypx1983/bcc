@@ -7,11 +7,12 @@
       </div>
     </div>
   </div>
+    <div class="hotline-mobile hidden-md hidden-lg">
+        <span><?php echo t('CÔNG TY CỔ PHẦN HÓA SINH VIỆT NAM')?></span>
+    </div>
   <div id="header">
     <div class="container">
-        <div class="hotline-mobile hidden-md hidden-lg">
-            <span><?php echo t('CÔNG TY CỔ PHẦN HÓA SINH VIỆT NAM')?></span>
-        </div>
+
       <div class="pull-left mobile-header">
         <?php if ($logo): ?>
           <div id="logo" class="">

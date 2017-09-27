@@ -84,10 +84,12 @@
 @include bp(max-width,$bp-tablet){
   .hotline-mobile{
     text-align: center;
-    font-size: 12px;
+    font-size: 13px;
     color: $text_red;
     font-weight: bold;
     padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: $bg_1;
   }
   .menu-btn{
     display: inline-block;

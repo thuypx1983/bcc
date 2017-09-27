@@ -1,12 +1,13 @@
 #navigation{
-  ul.menu{
+  #main-menu>ul.menu{
     display: block;
-    li{
+    &>li{
       list-style: none;
       display: block;
       float: left;
       padding: 0px 0px 0px 30px;
       margin: 0px;
+      position: relative;
       a{
         font-size: 18px;
         padding:25px 0px;
@@ -42,6 +43,32 @@
           }
         }
 
+      }
+      &:hover{
+        ul{
+          display: block;
+        }
+      }
+      ul{
+        display: none;
+        border-top: 3px solid $text_red;
+        position: absolute;
+        width: 300px;
+        top: calc(100% - 3px);
+        left: 0px;
+        z-index: 9999;
+        background-color: rgba(255, 255, 255, 0.6);
+        padding-left: 0px;
+        padding-bottom: 10px;
+        li{
+          list-style: none;
+          a{
+            padding: 10px 0px 0px 10px;
+            &:after{
+              display: none;
+            }
+          }
+        }
       }
     }
   }

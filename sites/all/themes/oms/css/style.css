@@ -184,24 +184,25 @@ body.not-front {
     .footer .block .title {
       text-align: left; } }
 /*components*/
-#navigation ul.menu {
+#navigation #main-menu > ul.menu {
   display: block; }
-  #navigation ul.menu li {
+  #navigation #main-menu > ul.menu > li {
     list-style: none;
     display: block;
     float: left;
     padding: 0px 0px 0px 30px;
-    margin: 0px; }
-    #navigation ul.menu li a {
+    margin: 0px;
+    position: relative; }
+    #navigation #main-menu > ul.menu > li a {
       font-size: 18px;
       padding: 25px 0px;
       display: block;
       position: relative;
       color: #164d81; }
-      #navigation ul.menu li a.active {
+      #navigation #main-menu > ul.menu > li a.active {
         background: transparent;
         color: #ED443D; }
-        #navigation ul.menu li a.active:after {
+        #navigation #main-menu > ul.menu > li a.active:after {
           position: absolute;
           content: "";
           bottom: 0px;
@@ -209,11 +210,11 @@ body.not-front {
           background-color: #ED443D;
           height: 3px;
           left: 0px; }
-      #navigation ul.menu li a:hover {
+      #navigation #main-menu > ul.menu > li a:hover {
         background: transparent;
         color: #ED443D;
         text-decoration: none; }
-        #navigation ul.menu li a:hover:after {
+        #navigation #main-menu > ul.menu > li a:hover:after {
           position: absolute;
           content: "";
           bottom: 0px;
@@ -221,6 +222,25 @@ body.not-front {
           background-color: #ED443D;
           height: 3px;
           left: 0px; }
+    #navigation #main-menu > ul.menu > li:hover ul {
+      display: block; }
+    #navigation #main-menu > ul.menu > li ul {
+      display: none;
+      border-top: 3px solid #ED443D;
+      position: absolute;
+      width: 300px;
+      top: calc(100% - 3px);
+      left: 0px;
+      z-index: 9999;
+      background-color: rgba(255, 255, 255, 0.6);
+      padding-left: 0px;
+      padding-bottom: 10px; }
+      #navigation #main-menu > ul.menu > li ul li {
+        list-style: none; }
+        #navigation #main-menu > ul.menu > li ul li a {
+          padding: 10px 0px 0px 10px; }
+          #navigation #main-menu > ul.menu > li ul li a:after {
+            display: none; }
 
 @media only screen and (max-width: 767px) {
   .menu-btn {

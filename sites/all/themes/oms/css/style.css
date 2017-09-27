@@ -646,7 +646,7 @@ body.not-front {
         font-weight: bold; }
       #block-menu-menu-he-gia-tri-code-loi ul.menu li a:before {
         position: absolute;
-        content: '>';
+        content: '\2022\2002';
         left: 0px;
         font-size: 15px;
         top: -3px; }

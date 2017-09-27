@@ -44,37 +44,43 @@
         }
 
       }
-      &:hover{
-        ul{
-          display: block;
-        }
-      }
-      ul{
-        display: none;
-        border-top: 3px solid $text_red;
-        position: absolute;
-        width: 300px;
-        top: calc(100% - 3px);
-        left: 0px;
-        z-index: 9999;
-        background-color: rgba(255, 255, 255, 0.6);
-        padding-left: 0px;
-        padding-bottom: 10px;
-        li{
-          list-style: none;
-          a{
-            padding: 10px 0px 0px 10px;
-            &:after{
-              display: none;
-            }
-          }
-        }
-      }
+
     }
   }
 }
 
 
+@include bp(min-width,$bp-tablet+1){
+  #main-menu>ul.menu>li{
+    &:hover{
+      ul{
+        display: block;
+      }
+    }
+    ul{
+      display: none;
+      border-top: 3px solid $text_red;
+      position: absolute;
+      width: 300px;
+      top: calc(100% - 3px);
+      left: 0px;
+      z-index: 9999;
+      background-color: rgba(255, 255, 255, 0.6);
+      padding-left: 0px;
+      padding-bottom: 10px;
+      li{
+        list-style: none;
+        a{
+          padding: 10px 0px 0px 10px;
+          &:after{
+            display: none;
+          }
+        }
+      }
+    }
+  }
+
+}
 @include bp(max-width,$bp-tablet){
 
   .menu-btn{
@@ -124,6 +130,18 @@
     align-items: left;
     img{
       max-height: 68px;
+    }
+  }
+
+  #main-menu>ul.menu>li{
+
+    ul{
+      padding-left: 10px;
+      li{
+        a{
+          font-size: 20px;
+        }
+      }
     }
   }
 }

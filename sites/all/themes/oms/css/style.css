@@ -222,26 +222,27 @@ body.not-front {
           background-color: #ED443D;
           height: 3px;
           left: 0px; }
-    #navigation #main-menu > ul.menu > li:hover ul {
-      display: block; }
-    #navigation #main-menu > ul.menu > li ul {
-      display: none;
-      border-top: 3px solid #ED443D;
-      position: absolute;
-      width: 300px;
-      top: calc(100% - 3px);
-      left: 0px;
-      z-index: 9999;
-      background-color: rgba(255, 255, 255, 0.6);
-      padding-left: 0px;
-      padding-bottom: 10px; }
-      #navigation #main-menu > ul.menu > li ul li {
-        list-style: none; }
-        #navigation #main-menu > ul.menu > li ul li a {
-          padding: 10px 0px 0px 10px; }
-          #navigation #main-menu > ul.menu > li ul li a:after {
-            display: none; }
 
+@media only screen and (min-width: 768px) {
+  #main-menu > ul.menu > li:hover ul {
+    display: block; }
+  #main-menu > ul.menu > li ul {
+    display: none;
+    border-top: 3px solid #ED443D;
+    position: absolute;
+    width: 300px;
+    top: calc(100% - 3px);
+    left: 0px;
+    z-index: 9999;
+    background-color: rgba(255, 255, 255, 0.6);
+    padding-left: 0px;
+    padding-bottom: 10px; }
+    #main-menu > ul.menu > li ul li {
+      list-style: none; }
+      #main-menu > ul.menu > li ul li a {
+        padding: 10px 0px 0px 10px; }
+        #main-menu > ul.menu > li ul li a:after {
+          display: none; } }
 @media only screen and (max-width: 767px) {
   .menu-btn {
     display: inline-block;
@@ -284,7 +285,12 @@ body.not-front {
     justify-content: left;
     align-items: left; }
     #header .pull-left #logo a img {
-      max-height: 68px; } }
+      max-height: 68px; }
+
+  #main-menu > ul.menu > li ul {
+    padding-left: 10px; }
+    #main-menu > ul.menu > li ul li a {
+      font-size: 20px; } }
 .menu-top ul {
   padding: 0px;
   display: table;

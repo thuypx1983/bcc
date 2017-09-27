@@ -244,6 +244,13 @@ body.not-front {
         #main-menu > ul.menu > li ul li a:after {
           display: none; } }
 @media only screen and (max-width: 767px) {
+  .hotline-mobile {
+    text-align: center;
+    font-size: 12px;
+    color: #ED443D;
+    font-weight: bold;
+    padding-top: 10px; }
+
   .menu-btn {
     display: inline-block;
     float: right; }
@@ -275,11 +282,6 @@ body.not-front {
       display: table-cell;
       vertical-align: middle;
       float: none; }
-      .mobile-header .mobile-menu .hotline-mobile {
-        text-align: left;
-        font-size: 12px;
-        color: #ED443D;
-        padding-bottom: 10px; }
 
   #header .pull-left #logo a {
     justify-content: left;

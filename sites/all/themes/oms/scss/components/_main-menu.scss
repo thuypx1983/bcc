@@ -82,7 +82,13 @@
 
 }
 @include bp(max-width,$bp-tablet){
-
+  .hotline-mobile{
+    text-align: center;
+    font-size: 12px;
+    color: $text_red;
+    font-weight: bold;
+    padding-top: 10px;
+  }
   .menu-btn{
     display: inline-block;
     float: right;
@@ -117,13 +123,10 @@
       vertical-align: middle;
       float: none;
 
-      .hotline-mobile{
-        text-align: left;
-        font-size: 12px;
-        color: $text_red;
-        padding-bottom: 10px;
-      }
+
     }
+
+
   }
   #header .pull-left #logo a{
     justify-content: left;

@@ -9,17 +9,18 @@
   </div>
   <div id="header">
     <div class="container">
-
+        <div class="hotline-mobile hidden-md hidden-lg">
+            <span><?php echo t('CÔNG TY CỔ PHẦN HÓA SINH VIỆT NAM')?></span>
+        </div>
       <div class="pull-left mobile-header">
         <?php if ($logo): ?>
           <div id="logo" class="">
+
             <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>"><img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" /></a>
           </div>
         <?php endif; ?>
           <div class="mobile-menu hidden-lg hidden-md ">
-              <div class="hotline-mobile">
-                  <span><?php echo t('CÔNG TY CỔ PHẦN HÓA SINH VIỆT NAM')?></span>
-              </div>
+
               <div class="">
                   <div class="menu-btn">
                       <span class="icon-bar"></span>

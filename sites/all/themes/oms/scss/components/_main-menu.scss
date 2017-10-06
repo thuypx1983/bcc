@@ -125,6 +125,22 @@
     }
   }
 
+  .not-front #navigation #main-menu>ul.menu>li{
+    &>ul.menu{
+      background-color: $text_white;
+      border: 1px solid $text_gray_light;
+      &>li{
+        &>ul.menu{
+          background-color: $text_white;
+        }
+      }
+    }
+    a.active-trail{
+      background-color: transparent;
+      color: $text_red;
+    }
+  }
+
 }
 @include bp(max-width,$bp-tablet){
   .hotline-mobile{

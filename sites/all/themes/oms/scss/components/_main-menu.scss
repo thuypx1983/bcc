@@ -128,10 +128,15 @@
   .not-front #navigation #main-menu>ul.menu>li{
     &>ul.menu{
       background-color: $text_white;
-      border: 1px solid $text_gray_light;
+      border-right: 1px solid $text_gray_light;
+      border-left: 1px solid $text_gray_light;
+      border-bottom: 1px solid $text_gray_light;
       &>li{
         &>ul.menu{
           background-color: $text_white;
+          border-right: 1px solid $text_gray_light;
+          border-top: 1px solid $text_gray_light;
+          border-bottom: 1px solid $text_gray_light;
         }
       }
     }

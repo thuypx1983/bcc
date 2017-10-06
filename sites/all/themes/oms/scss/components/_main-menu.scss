@@ -5,7 +5,7 @@
       list-style: none;
       display: block;
       float: left;
-      padding: 0px 0px 0px 30px;
+      padding: 0px 30px 0px 0px;
       margin: 0px;
       position: relative;
       a{
@@ -53,11 +53,11 @@
 @include bp(min-width,$bp-tablet+1){
   #navigation #main-menu>ul.menu>li{
     &:hover{
-      ul{
+      &>ul{
         display: block;
       }
     }
-    ul{
+    &>ul{
       display: none;
       border-top: 3px solid $text_red;
       position: absolute;
@@ -68,8 +68,10 @@
       background-color: rgba(255, 255, 255, 0.6);
       padding-left: 0px;
       padding-bottom: 10px;
-      li{
+      &>li{
         list-style: none;
+        position: relative;
+
         a{
           padding: 8px 0px 0px 0px;
           font-size: 16px;
@@ -78,6 +80,47 @@
             font-size: 20px;
           }
         }
+        &>ul{
+          display: none;
+        }
+        &:hover{
+          &>ul{
+            z-index: 9999;
+            background-color: rgba(255, 255, 255, 0.6);
+            padding-left: 0px;
+            width: 350px;
+            list-style: none;
+            padding-left: 0px;
+            display: inline-block;
+            position: absolute;
+            left: 100%;
+            top: 0;
+            li{
+              display: block;
+              a{
+                display: block;
+              }
+            }
+
+          }
+        }
+      }
+    }
+  }
+
+  #navigation #main-menu{
+    li.expanded{
+      &:after{
+        position: absolute;
+        content: '';
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 5px 5px 0 5px;
+        border-color: $bg_2 transparent transparent transparent;
+        right: 15px;
+        top: 50%;
+        transform: translate(0,-50%);
       }
     }
   }

@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* Variables */
 /* Break point */
 /* Mixin */
@@ -1097,16 +1098,54 @@ body.not-front a {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/components\/_block-menu-product-category\.scss}line{font-family:\0000318}}
 .menu-product-category ul.menu li a {
+  text-decoration: none;
   font-size: 15px;
   color: #9a9a9a;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/components\/_block-menu-product-category\.scss}line{font-family:\0000321}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/components\/_block-menu-product-category\.scss}line{font-family:\0000323}}
+.menu-product-category ul.menu li a:hover {
+  color: #ED443D;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/components\/_block-menu-product-category\.scss}line{font-family:\0000326}}
 .menu-product-category ul.menu li a.active {
   color: #164d81;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/components\/_block-menu-product-category\.scss}line{font-family:\0000324}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/components\/_block-menu-product-category\.scss}line{font-family:\0000329}}
 .menu-product-category ul.menu li a:before {
   content: '\2022\2002';
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/components\/_block-menu-product-category\.scss}line{font-family:\0000333}}
+.menu-product-category ul.menu li .glyphicon {
+  float: right;
+  margin-right: 15px;
+  font-size: 8px;
+  padding: 4px;
+  color: #fff;
+  background-color: #9a9a9a;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/components\/_block-menu-product-category\.scss}line{font-family:\0000348}}
+.menu-product-category .content > ul.menu > li ul.menu {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/components\/_block-menu-product-category\.scss}line{font-family:\0000352}}
+.menu-product-category .content > ul.menu > li.open .glyphicon-plus:before {
+  content: "−";
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/components\/_block-menu-product-category\.scss}line{font-family:\0000355}}
+.menu-product-category .content > ul.menu > li.open ul.menu {
+  display: block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/components\/_block-menu-product-category\.scss}line{font-family:\0000357}}
+.menu-product-category .content > ul.menu > li.open ul.menu li {
+  padding-left: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/components\/_block-menu-product-category\.scss}line{font-family:\0000361}}
+.menu-product-category .content > ul.menu > li.open ul.menu li a:before {
+  content: '−';
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/components\/_block-menu-product-category\.scss}line{font-family:\0000365}}
+.menu-product-category .content > ul.menu > li.open ul.menu li:last-child {
+  border-bottom: 0px;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/components\/_block-support\.scss}line{font-family:\000031}}

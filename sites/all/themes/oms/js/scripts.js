@@ -103,6 +103,12 @@
                 return true;
             }
             return false;
+        },
+        menuCategoryExpand:function(){
+            $('.menu-product-category .glyphicon').click(function(e){
+                e.preventDefault();
+                $(this).parent().parent().toggleClass('open');
+            })
         }
     }
 
@@ -114,7 +120,8 @@
         STNScript.detectStar();
         STNScript.createMenuMobile();
         STNScript.searchMobile();
-        
+        STNScript.menuCategoryExpand();
+
         $(document).on("click",function (event) {
             if (!$(event.target).is("#block-search-form,.search-icon,.glyphicon-search,#edit-search-block-form--2")) {
                 $('#block-search-form').removeClass('open-popup');;

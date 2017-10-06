@@ -16,8 +16,13 @@
       padding:10px 0px;
       border-bottom: 1px solid $bg_7;
       a{
+        text-decoration: none;
         font-size: 15px;
         color: $text_gray_light;
+
+        &:hover{
+          color: $text_red;
+        }
         &.active{
           color: $bg_4;
         }
@@ -25,6 +30,46 @@
           content: '\2022\2002';
         }
       }
+      .glyphicon{
+        float: right;
+        margin-right: 15px;
+        font-size: 8px;
+        padding: 4px;
+        color: $text_white;
+        background-color: $text_gray_light;
+      }
     }
+  }
+
+  .content{
+    &>ul.menu{
+      &>li{
+
+        ul.menu{
+          display: none;
+        }
+        &.open{
+          .glyphicon-plus:before{
+            content: "−";
+          }
+          ul.menu{
+            display: block;
+            li{
+              padding-left: 10px;
+              a{
+
+                &:before{
+                  content: '−';
+                }
+              }
+              &:last-child{
+                border-bottom: 0px;
+              }
+            }
+          }
+        }
+      }
+    }
+
   }
 }

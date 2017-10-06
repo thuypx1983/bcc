@@ -496,6 +496,26 @@ body.not-front a {
   #main-menu > ul.menu > li ul li a {
     font-size: 20px;
   }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/components\/_main-menu\.scss}line{font-family:\00003219}}
+  .pushy {
+    width: 25px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/components\/_main-menu\.scss}line{font-family:\00003221}}
+  .pushy #navigation #main-menu > ul.menu {
+    padding-left: 15px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/components\/_main-menu\.scss}line{font-family:\00003224}}
+  .pushy #navigation #main-menu > ul.menu > li a {
+    color: #fff;
+    font-size: 16px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/components\/_main-menu\.scss}line{font-family:\00003227}}
+  .pushy #navigation #main-menu > ul.menu > li a:after {
+    display: none;
+  }
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/components\/_block-menu-top\.scss}line{font-family:\000032}}
 .menu-top ul {

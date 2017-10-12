@@ -36,20 +36,29 @@
 
             $('.banner-home .view-banner .view-content').slick({
                 autoplay: true,
-                autoplaySpeed: 2000,
                 arrows: false,
+                autoplaySpeed: 4000,
+                speed: 500,
+                fade: true,
+                cssEase: 'linear'
             })
             $('.banner-second .view-banner .view-content').slick({
                 autoplay: true,
-                autoplaySpeed: 2000,
-                arrows: false
+                arrows: false,
+                autoplaySpeed: 4000,
+                speed: 500,
+                fade: true,
+                cssEase: 'linear'
             })
             $('.related-products .view-content').slick({
                 infinite: true,
                 slidesToShow: 4,
                 slidesToScroll: 1,
                 autoplay: true,
-                autoplaySpeed: 2000,
+                autoplaySpeed: 4000,
+                speed: 500,
+                fade: true,
+                cssEase: 'linear'
             })
         },
 

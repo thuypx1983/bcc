@@ -86,7 +86,7 @@
         &:hover{
           &>ul{
             z-index: 9999;
-            background-color: rgba(255, 255, 255, 0.6);
+            background-color: $bg_7;
             padding-left: 0px;
             width: 350px;
             list-style: none;

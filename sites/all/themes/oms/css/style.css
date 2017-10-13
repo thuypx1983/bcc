@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* Variables */
 /* Break point */
 /* Mixin */
@@ -1127,7 +1128,7 @@ body.not-front a {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/components\/_block-menu-product-category\.scss}line{font-family:\0000352}}
 .menu-product-category .content > ul.menu > li.open .glyphicon-plus:before {
-  content: "\00af";
+  content: "−";
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/components\/_block-menu-product-category\.scss}line{font-family:\0000355}}
 .menu-product-category .content > ul.menu > li.open ul.menu {

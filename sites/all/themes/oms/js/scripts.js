@@ -140,7 +140,7 @@
 
     })
     $(window).on('load',function(){
-        $('.menu-product-category .expanded').find('.glyphicon').trigger('click');
+        $('.menu-product-category .active-trail').find('.glyphicon').trigger('click');
         STNScript.autoHeight();
         if(STNScript.isMobile()){
             STNScript.moveSlideBarToBottom();

@@ -50,7 +50,7 @@
         }
         &.open{
           .glyphicon-plus:before{
-            content: "−";
+            content: "\00af";
           }
           ul.menu{
             display: block;
@@ -59,7 +59,7 @@
               a{
 
                 &:before{
-                  content: '−';
+                  content:"\00bb ";
                 }
               }
               &:last-child{

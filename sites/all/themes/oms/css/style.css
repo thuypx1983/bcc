@@ -1140,9 +1140,10 @@ body.not-front a {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/components\/_block-menu-product-category\.scss}line{font-family:\0000361}}
 .menu-product-category .content > ul.menu > li.open ul.menu li a:before {
-  content: "\00bb ";
+  content: "\00bb\00a0";
+  font-size: 18px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/components\/_block-menu-product-category\.scss}line{font-family:\0000365}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/media\/datas\/websites\/dev\.sutunam\.com\/bcc\/sites\/all\/themes\/oms\/scss\/components\/_block-menu-product-category\.scss}line{font-family:\0000366}}
 .menu-product-category .content > ul.menu > li.open ul.menu li:last-child {
   border-bottom: 0px;
 }

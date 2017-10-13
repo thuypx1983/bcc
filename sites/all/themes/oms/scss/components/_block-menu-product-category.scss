@@ -59,7 +59,8 @@
               a{
 
                 &:before{
-                  content:"\00bb ";
+                  content:"\00bb\00a0";
+                  font-size: 18px;
                 }
               }
               &:last-child{

@@ -34,6 +34,14 @@
         //
         initSlick:function(){
 
+            $('.banner-category').slick({
+                autoplay: true,
+                arrows: false,
+                autoplaySpeed: 2000,
+                speed: 500,
+                fade: true,
+                cssEase: 'linear'
+            })
             $('.banner-home .view-banner .view-content').slick({
                 autoplay: true,
                 arrows: false,

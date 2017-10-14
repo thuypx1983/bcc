@@ -751,8 +751,7 @@ body.not-front {
     list-style: none;
     padding-left: 0px;
     margin: 0px;
-    padding: 10px 0px;
-    border-bottom: 1px solid #323232; }
+    padding: 10px 0px; }
     .menu-product-category ul.menu li a {
       text-decoration: none;
       font-size: 15px;
@@ -772,31 +771,33 @@ body.not-front {
       padding: 4px;
       color: #fff;
       background-color: #323232; }
-.menu-product-category .content > ul.menu > li > a {
-  font-weight: bold; }
-.menu-product-category .content > ul.menu > li ul.menu {
-  display: none; }
-.menu-product-category .content > ul.menu > li.open .glyphicon-plus:before {
-  content: "−"; }
-.menu-product-category .content > ul.menu > li.open ul.menu {
-  display: block; }
-  .menu-product-category .content > ul.menu > li.open ul.menu li {
-    padding-left: 0px;
+.menu-product-category .content > ul.menu > li {
+  border-bottom: 1px solid #323232; }
+  .menu-product-category .content > ul.menu > li > a {
+    font-weight: bold; }
+  .menu-product-category .content > ul.menu > li > ul.menu > li {
     border-bottom: none; }
-    .menu-product-category .content > ul.menu > li.open ul.menu li a:before {
+    .menu-product-category .content > ul.menu > li > ul.menu > li a:before {
       content: "\00bb\00a0";
       font-size: 18px; }
-    .menu-product-category .content > ul.menu > li.open ul.menu li:last-child {
-      border-bottom: 0px; }
-    .menu-product-category .content > ul.menu > li.open ul.menu li ul.menu li {
-      padding-left: 5px;
-      padding-top: 3px;
-      padding-bottom: 3px;
-      border-bottom: none; }
-      .menu-product-category .content > ul.menu > li.open ul.menu li ul.menu li a {
-        font-size: 13px; }
-        .menu-product-category .content > ul.menu > li.open ul.menu li ul.menu li a:before {
-          content: '\2022\2002'; }
+    .menu-product-category .content > ul.menu > li > ul.menu > li > ul.menu {
+      display: none; }
+    .menu-product-category .content > ul.menu > li > ul.menu > li.open .glyphicon-plus:before {
+      content: "−"; }
+    .menu-product-category .content > ul.menu > li > ul.menu > li.open ul.menu {
+      display: block; }
+      .menu-product-category .content > ul.menu > li > ul.menu > li.open ul.menu li {
+        padding-left: 0px;
+        border-bottom: none;
+        padding-left: 5px;
+        padding-top: 3px;
+        padding-bottom: 3px; }
+        .menu-product-category .content > ul.menu > li > ul.menu > li.open ul.menu li a {
+          font-size: 13px; }
+          .menu-product-category .content > ul.menu > li > ul.menu > li.open ul.menu li a:before {
+            content: '\2022\2002'; }
+        .menu-product-category .content > ul.menu > li > ul.menu > li.open ul.menu li:last-child {
+          border-bottom: 0px; }
 
 .block-support {
   border: 1px solid #f2f4f4;

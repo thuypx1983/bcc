@@ -36,18 +36,21 @@
 
         <?php
         $term = taxonomy_term_load(arg(2));
-        $field_images=field_get_items('taxonomy_term',$term,'field_images');
-        if ($field_images) {
-            echo '<div class="banner-category">';
-          foreach ($field_images as $item){
-              ?>
-              <div class="item">
-                  <img src="<?php echo file_create_url($item['uri'])?>">
-              </div>
-              <?php
-          }
-          echo '</div>';
+        if($term){
+            $field_images=field_get_items('taxonomy_term',$term,'field_images');
+            if ($field_images) {
+                echo '<div class="banner-category">';
+                foreach ($field_images as $item){
+                    ?>
+                    <div class="item">
+                        <img src="<?php echo file_create_url($item['uri'])?>">
+                    </div>
+                    <?php
+                }
+                echo '</div>';
+            }
         }
+
         ?>
 
     <?php if ($header): ?>

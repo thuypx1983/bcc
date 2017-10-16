@@ -28,6 +28,9 @@
     }
   }
 }
+.mobile-header{
+  max-width: 200px;
+}
 
 @include bp(max-width,$bp-tablet){
   #header{

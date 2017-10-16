@@ -1,0 +1,48 @@
+.fadeInRight {
+  background-color: rgba(0, 57, 29, 0.6);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 0;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 0;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 20px;
+  position: fixed;
+  right: 0;
+  top: 32%;
+  z-index: 100;
+}
+.fadeInRight ul{
+  padding: 0px;
+  li {
+    margin-bottom: 20px;
+    width: 100%;
+    list-style: none;
+    padding: 0px;
+  }
+}
+.fadeInRight li:last-of-type {
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+}
+.fadeInRight li img {
+  display: block;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  max-width: 100%;
+  width: auto;
+}
+.icon-slidebar {
+  color: #fff;
+  font-size: 28px;
+  line-height: 1;
+  text-align: center;
+  .fa{
+    color: #ffffff;
+  }
+}

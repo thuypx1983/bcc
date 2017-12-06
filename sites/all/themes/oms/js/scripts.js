@@ -132,7 +132,9 @@
 
     $(document).ready(function(){
         $('#block-search-form').prepend('<span class="btn-close">x</span>')
-
+        if($('.view-product-list.view-display-id-page').length>0){
+            $('.page-title').insertBefore($('.view-display-id-page .view-content'));
+        }
         STNScript.initSlick();
         STNScript.detectStar();
         STNScript.createMenuMobile();

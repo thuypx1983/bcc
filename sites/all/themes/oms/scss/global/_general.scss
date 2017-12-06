@@ -40,14 +40,15 @@ body.not-front{
   a{
     color: $bg_2;
   }
+  #main{
+    margin-top: 50px;
+  }
 }
 .page-title{
-  background-color: $bg_4;
-  margin-bottom: 25px;
+  margin-bottom: 10px;
   h1.title,h2.title{
-    color: $text_white;
-    font-size: 30px;
-    margin-bottom: 20px;
+    font-size: 20px;
+    margin-bottom: 10px;
   }
 }
 

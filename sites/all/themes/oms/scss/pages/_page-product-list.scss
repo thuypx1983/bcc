@@ -1,5 +1,7 @@
 .banner-category{
   margin-bottom: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .best-sell-product{
   .title{
@@ -46,6 +48,13 @@
 }
 .block-system{
   .view-id-product_list{
+    .page-title{
+      h1.title{
+        text-align: left;
+        margin-top: 5px;
+        float: left;
+      }
+    }
     text-align: center;
     .views-row{
       margin-bottom: 20px;

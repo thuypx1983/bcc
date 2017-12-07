@@ -28,10 +28,12 @@
     }
   }
 }
-.mobile-header{
-  max-width: 200px;
-}
 
+@include bp(min-width,$bp-tablet+1){
+  .mobile-header{
+    max-width: 200px;
+  }
+}
 @include bp(max-width,$bp-tablet){
   #header{
     background-color: rgba(255, 255, 255, 0.6);

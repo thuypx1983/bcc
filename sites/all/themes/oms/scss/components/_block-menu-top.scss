@@ -24,8 +24,9 @@
         }
       }
       &:last-child{
-        a{
-          color: $text_red;
+        .nolink{
+          color: #3596B6;
+          font-weight: bold;
           &:after{
             display: none;
           }

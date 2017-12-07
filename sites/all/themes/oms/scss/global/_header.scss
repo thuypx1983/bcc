@@ -1,6 +1,6 @@
 
 #header-top{
-  background-color: $bg_1;
+  background-color: #164D81;
   padding-top: 20px;
   padding-bottom: 20px;
 
@@ -15,6 +15,7 @@
     #logo{
       height: 100%;
       display: block;
+      max-width: 120px;
       a{
         height: 100%;
         display: flex;
@@ -29,9 +30,44 @@
   }
 }
 
+
 @include bp(min-width,$bp-tablet+1){
   .mobile-header{
     max-width: 200px;
+  }
+  #header-top{
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+  }
+
+  #header{
+    background-color: $text_white;
+    position: relative;
+    z-index: 9;
+    .pull-left{
+      position: absolute;
+      height: 100%;
+      top: -35px;
+      z-index: 9999;
+      background-color: #fff;
+      box-shadow: 0 0 3px 0 rgba(50, 50, 50, 0.5);
+      height: 150px;
+      #logo{
+        height: 100%;
+        display: block;
+        a{
+          height: 100%;
+          display: flex;
+          flex-wrap: wrap; /* optional. only if you want the items to wrap */
+          justify-content: center; /* for horizontal alignment */
+          align-items: center; /* for vertical alignment */
+          img{
+            max-height: 100%;
+          }
+        }
+      }
+    }
   }
 }
 @include bp(max-width,$bp-tablet){
@@ -43,12 +79,21 @@
       position: inherit;
       float: none !important;
       #logo{
-
+        display: block;
+        position: absolute;
+        top: 0px;
+        background-color: #fff;
+        box-shadow: 0 0 3px 0 rgba(50, 50, 50, 0.5);
+        padding: 5px;
+        height: 85px;
       }
     }
   }
   #header-top{
     height: 0px;
     padding: 0px;
+  }
+  .hotline-mobile{
+    display: none;
   }
 }

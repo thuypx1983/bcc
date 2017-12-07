@@ -72,21 +72,6 @@
   <div id="main">
     <div class="page-title">
       <div class="container">
-        <h2 class="title">
-          <?php
-          if ($node = menu_get_object()) {
-            // Get the nid
-            $nid = $node->nid;
-            $cat=field_get_items('node',$node,'field_product_category');
-            if($cat){
-              $category=taxonomy_term_load($cat[0]['tid']);
-              echo 'Sản phẩm '.$category->name;
-            }
-          }
-
-          ?>
-
-        </h2>
       </div>
     </div>
       <div class="container">

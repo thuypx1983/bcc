@@ -1,5 +1,5 @@
-*.patch
-*.diff
-.idea/
-.idea/*
-.DS_Store
+*.patch
+*.diff
+.idea/
+.idea/*
+.DS_Store

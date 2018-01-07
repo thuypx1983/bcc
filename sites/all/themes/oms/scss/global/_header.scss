@@ -32,6 +32,11 @@
 
 
 @include bp(min-width,$bp-tablet+1){
+  #logo{
+    img{
+      max-height: 95px;
+    }
+  }
   .mobile-header{
     max-width: 200px;
   }
@@ -42,31 +47,20 @@
   }
 
   #header{
-    background-color: $text_white;
+    background-color: $bg_4;
     position: relative;
-    z-index: 9;
-    .pull-left{
+    z-index: 1;
+    &>.container{
+      max-width: inherit;
+      width: 90%;
+    }
+    &:after{
       position: absolute;
-      height: 100%;
-      top: -35px;
-      z-index: 9999;
-      background-color: #fff;
-      box-shadow: 0 0 3px 0 rgba(50, 50, 50, 0.5);
-      height: 150px;
-      #logo{
-        height: 100%;
-        display: block;
-        a{
-          height: 100%;
-          display: flex;
-          flex-wrap: wrap; /* optional. only if you want the items to wrap */
-          justify-content: center; /* for horizontal alignment */
-          align-items: center; /* for vertical alignment */
-          img{
-            max-height: 100%;
-          }
-        }
-      }
+      width: 100%;
+      bottom: 0px;
+      height: 4px;
+      content: "";
+      background-color: $bg_1;
     }
   }
 }

@@ -1,7 +1,6 @@
 
 .block-system{
   .view-technical-list{
-    text-align: center;
     .views-row{
       margin-bottom: 20px;
       .views-field-title{
@@ -12,13 +11,10 @@
         }
       }
       .views-field-field-image{
-        padding: 5px 20px;
-        a{
-          img{
-            max-height: 100%;
-            display: block;
-            box-sizing:border-box;
-          }
+        img{
+          max-height: 100%;
+          display: block;
+          box-sizing:border-box;
         }
 
       }

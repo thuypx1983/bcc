@@ -6,23 +6,29 @@
     li{
       display: inline-block;
       a{
-        color: $text_gray_light;
+        color: $bg_1;
         padding-left: 5px;
-        color: transparent;
-        letter-spacing: -3px;
-        opacity : 0.5;
         &.active{
-          opacity : 1;
+          color: $text_white;
         }
       }
       &.en{
-        a{
-          background: url(/sites/all/themes/oms/images/uk-flag.jpg) no-repeat top left;
-        }
+
       }
       &.vi{
         a{
-          background: url(/sites/all/themes/oms/images/vn.png) no-repeat top left;
+          position: relative;
+          padding-right: 10px;
+          &:after{
+            content: "";
+            position: absolute;
+            width: 1px;
+            background: $text-white;
+            height: 13px;
+            right: 0px;
+            top: 50%;
+            transform: translate( 0,-50%);
+          }
         }
       }
     }
@@ -38,7 +44,14 @@
           padding-left: 5px;
 
         }
+        &.vi{
+          a{
 
+            &:after{
+              background: $bg_4;
+            }
+          }
+        }
       }
     }
   }

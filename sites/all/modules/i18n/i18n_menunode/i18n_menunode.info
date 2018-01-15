@@ -1,0 +1,9 @@
+name = Menu translation (Node)
+description = Allows a single node menu item to point to different node translations depending on the current language.
+dependencies[] = i18n
+dependencies[] = menu
+dependencies[] = i18n_block
+dependencies[] = i18n_string
+dependencies[] = i18n_menu
+package = Multilanguage
+core = 7.x

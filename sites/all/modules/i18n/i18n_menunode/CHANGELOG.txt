@@ -1,0 +1,103 @@
+
+Menu translation (Node) x.x-x.x, xxxx-xx-xx
+-------------------------------------------
+
+
+Menu translation (Node) 6.x-1.x, xxxx-xx-xx
+-------------------------------------------
+
+
+Menu translation (Node) 6.x-1.2, 2011-11-04
+-------------------------------------------
+#1331570 by derhasi: Fixed Wrong version comparison in
+  i18n_menunode_requirements().
+#1270734 by plach: Fixed The current menu item should be set only when node
+  translation is enabled.
+#1245012 by plach: Fixed Enabling node translations should be available only for
+  source nodes.
+#1245000 by plach: Fixed Menu item ignored by [i18n-menupath-raw] for
+  translation nodes.
+
+
+Menu translation (Node) 6.x-1.1, 2011-08-08
+-------------------------------------------
+#1183692 by plach: i18n_menunode_set_item() should be called as early as
+  possible.
+#1097990 by plach | blaiz: Fixed Blocks unavailable when delta exceeds the
+  maximum length.
+#1115728 by plach | drupalninja99: Fixed Newest update breaks context.
+#1151548 by plach: Fixed Language selection problem when using Context menu
+  condition.
+#1176396 by plach: Fixed [i18n] blocks do not inherit the source block
+  information.
+
+
+Menu translation (Node) 6.x-1.0, 2001-03-14
+-------------------------------------------
+#910974 by plach: Fixed Menu title translation not removed on node deletion.
+  (followup)
+#967622 by plach: Removed [i18n-menuhierarchy-raw] token before 1.0 release.
+
+
+Menu translation (Node) 6.x-1.0-RC1, 2011-02-21
+-----------------------------------------------
+#1062126 by plach: Fixed [i18n] block deltas do not work with CSS.
+#910974 by plach: Fixed Menu title translation not removed on node deletion.
+#969840 follow-up by plach | mandreato: Fixed dev versions requirements.
+
+
+Menu translation (Node) 6.x-1.0-BETA2, 2010-11-12
+-------------------------------------------------
+#969840 by plach: Changed Show requirements in the status report page.
+#949466 by plach, Johnny vd Laar: Fixed line 88 primary-links_block() function
+  doesn't exist.
+- Added CHANGELOG.txt
+#967552 by plach: Fixed Node translation disabled silently.
+#910976 by plach: Fixed Title translation not matching source language.
+#926130 by plach: Added support for Pathauto segment cleaning mode.
+#933674 by peximo | plach: Fixed Missing check that a node page actually has the
+  'node' router path.
+
+
+Menu translation (Node) 6.x-1.0-BETA1, 2010-09-18
+-------------------------------------------------
+#877378 by plach | miro_dietiker, Lars Kramer: Added Document the possibilty to
+  translate menu title into the default language.
+- Fixed a string issue.
+#867288 by plach | Johnny vd Laar: Added Pathauto path generation.
+#910292 by plach: Added Context integration.
+#911320 by plach: Added Allow other modules to provide [i18n] blocks.
+- API improvements
+- Fixed PHPDocs coding standards
+#909346 by plach: Fixed 'Enable node translation' checkbox not populated in the
+  menu item edit form.
+#905444 by plach | setvik: Fixed Make i18n_menunode() work with i18n 1.6.
+#889880 by plach: Fixed menu item title translation permission.
+#907592 by plach: Fixed Node form elements should be altered only if they
+  actually exist.
+#891904 by plach: Fixed Wrong href backup while setting the menu item.
+#891354 by plach: Added more visible info about the purpose of the i18n menu
+  blocks.
+
+
+Menu translation (Node) 6.x-1.0-ALPHA3, 2010-07-30
+--------------------------------------------------
+#867608 by plach: Followup patch: the previous fix was incomplete and introduced
+  a critical misbehavior.
+- Fixed a comment left from the initial i18n patch.
+
+
+Menu translation (Node) 6.x-1.0-ALPHA2, 2010-07-29
+--------------------------------------------------
+- Sync with http://drupal.org/cvs?commit=399910
+#867608 by plach: Fixed Menu item widget on node form broken if the source node
+  is not the original one.
+- Restored backward compatibility code while waiting for i18n-1.6
+#868454 by plach: Fixed Breadcrumb behavior mismatch.
+- Updated HEAD after i18n update (#386372).
+
+
+Menu translation (Node) 6.x-1.0-ALPHA1, 2010-07-11
+--------------------------------------------------
+- Initial commit and documentation.
+

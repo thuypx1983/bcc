@@ -2,18 +2,15 @@
   padding-top: 35px;
   .views-row{
     margin-bottom: 30px;
-    .row-content{
-      position: relative;
-    }
+    position: relative;
     .views-field-name{
       position: absolute;
-      top: 0px;
+      top: 20px;
       width: 100%;
-      font-size: 25px;
+      font-size: 30px;
       color: $text-white;
-      padding: 15px 30px;
-      background-color: rgba(61, 175, 208, 0.5);
-      font-weight: 300;
+      padding-left: 15px;
+      padding-right: 50px;
     }
     .views-field-name-1{
       position: absolute;
@@ -40,6 +37,7 @@
 
 
     }
+
     .views-field-field-image{
       img{
         -webkit-filter: brightness(.8);

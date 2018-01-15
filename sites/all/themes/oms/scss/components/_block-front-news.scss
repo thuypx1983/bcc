@@ -7,7 +7,6 @@
       .views-field-body{
         display: block;
         color: $text_gray_light;
-        margin-bottom: 20px;
       }
       a{
         color: $text_black;
@@ -25,7 +24,7 @@
         margin-right: 15px;
         color: $text_black_light;
         margin-left: 15px;
-        border-bottom: 1px solid $text_white;
+        border-bottom: 1px solid $text_black_light;
 
         position: relative;
         &:after{
